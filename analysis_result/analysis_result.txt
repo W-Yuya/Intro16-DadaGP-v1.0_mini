@@ -1,0 +1,16 @@
+[original_dir]:C:\Users\y-wake\Documents\AS2\Internship\AIST\code\make_dataset\testdata
+- Dadagp format (.txt) file count: 23
+[make_data_dir]:Intro16-DadaGP-v1.0
+- Dadagp format (.txt) file count: 17
+- .gp5 file count: 18
+- tabVAE format csv file count: 34
+- scaleVAE format csv file count: 17
+- scale_info:
+	min_midi: not found
+	max_midi: not found
+	total_quarter_length: not found
+- wav file count: 17
+- total wav time: 610.9998639455782
+- average wav time: 35.94116846738695
+- xml file count: 17
+- pdf file count: 17

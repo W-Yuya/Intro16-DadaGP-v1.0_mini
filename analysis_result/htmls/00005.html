@@ -1,0 +1,816 @@
+
+        <html>
+        <head>
+            <meta charset="utf-8">
+            <meta name="viewport" content="width=device-width, initial-scale=1">
+            <title>1349 - Riders Of The Apocalypse</title>
+            
+            <style>
+                    :root {
+                        --primary-color: #3498db; /* アカデミックな青 */
+                        --background-color: #f4f7f9; /* 淡い背景 */
+                        --card-background: #ffffff; /* カードの背景 */
+                        --border-color: #e0e0e0;
+                        --notebook-breakpoint: 1200px; /* 3分割 -> 2分割 */
+                        --tablet-breakpoint: 900px;    /* 2分割 -> 1分割 */
+                    }
+
+                    /* ========================================================== */
+                    /* 1. 基本スタイル (レイアウトに影響しない共通設定) */
+                    /* ========================================================== */
+                    body {
+                        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+                        background-color: var(--background-color);
+                        color: #333;
+                        margin: 0;
+                        padding: 20px;
+                    }
+
+                    /* タイトル・見出し */
+                    h1 { color: #2c3e50; font-size: 1.8em; border-bottom: 2px solid var(--primary-color); padding-bottom: 5px; }
+                    h2 { color: #34495e; font-size: 1.4em; }
+                    h3 { color: var(--primary-color); font-size: 1.2em; margin-top: 20px; margin-bottom: 10px;}
+
+                    /* ナビゲーション */
+                    nav { margin-bottom: 20px; padding: 10px 0; border-bottom: 1px solid var(--border-color); }
+                    nav a {
+                        text-decoration: none;
+                        color: var(--primary-color);
+                        padding: 5px 10px;
+                        border: none; /*1px solid var(--primary-color); */
+                        border-radius: 5px;
+                        transition: background-color 0.3s, color 0.3s;
+                        font-weight: 600;
+                    }
+                    nav a:hover {
+                        background-color: var(--primary-color);
+                        color: white;
+                    }
+
+                    /* リスト/カード (Files & Stats) */
+                    ul {
+                        background: var(--card-background);
+                        padding: 15px;
+                        border-radius: 8px;
+                        box-shadow: 0 4px 12px rgba(0,0,0,0.05);
+                        list-style-type: none;
+                        padding-left: 15px;
+                    }
+                    ul li {
+                        padding: 5px 0;
+                        border-bottom: 1px dotted #eee;
+                    }
+                    ul li:last-child {
+                        border-bottom: none;
+                    }
+                    
+                    /* ------------------- Statsリスト (dl/dt/dd) のスタイル ------------------- */
+                    .stats-list {
+                        /* ul のスタイルを流用し、dl自体をカードデザインにする */
+                        background: var(--card-background);
+                        padding: 15px;
+                        border-radius: 8px;
+                        box-shadow: 0 4px 12px rgba(0,0,0,0.05);
+                        list-style-type: none; /* dlなので意味はないが一応 */
+                        padding-left: 15px;
+                    }
+
+                    .stat-item {
+                        display: flex; /* dtとddを横に並べる */
+                        justify-content: space-between; /* 項目名と値を左右に寄せる */
+                        padding: 5px 0;
+                        border-bottom: 1px dotted #eee;
+                    }
+                    .stats-list .stat-item:last-child {
+                        border-bottom: none;
+                    }
+
+                    .stat-item dt {
+                        /* 項目名（左側）を太字にして強調 */
+                        font-weight: 600;
+                        color: #555; /* 項目名を少し暗い色に */
+                        flex-shrink: 0; /* dtは縮まない */
+                        padding-right: 15px; /* 値との間にスペース */
+                    }
+
+                    .stat-item dd {
+                        /* 値（右側）は通常フォント、右寄せ */
+                        margin-left: 0; /* ddのデフォルトのインデントをリセット */
+                        text-align: right;
+                        flex-grow: 1; /* ddが残りの幅を全て使う */
+                        color: #333;
+                    }
+
+                    /* PDF/オーディオボックス */
+                    .pdf-box {
+                        background: var(--card-background);
+                        padding: 15px;
+                        border-radius: 8px;
+                        box-shadow: 0 4px 12px rgba(0,0,0,0.05);
+                        margin-bottom: 20px;
+                    }
+                    .pdf-box embed {
+                        width: 100%;
+                        height: 600px;
+                        border: 1px solid var(--border-color);
+                        border-radius: 5px;
+                    }
+                    audio {
+                        width: 100%;
+                        margin-top: 10px;
+                        box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+                        border-radius: 5px;
+                    }
+                    .pdf-label {
+                        font-weight: 600;
+                        margin-bottom: 10px;
+                        color: #555;
+                    }
+
+                    /* 画像コンテナ */
+                    .image-container {
+                        background: var(--card-background);
+                        padding: 15px;
+                        border-radius: 8px;
+                        box-shadow: 0 4px 12px rgba(0,0,0,0.05);
+                        margin-bottom: 20px;
+                        overflow: hidden; 
+                    }
+                    .image-container img {
+                        width: 100%;
+                        height: auto;
+                        display: block;
+                        border: 1px solid var(--border-color);
+                        border-radius: 5px;
+                        margin-top: 10px;
+                    }
+
+                    /* TabVAE画像の特殊設定 (横スクロール) */
+                    .tabvae-scroll-wrapper {
+                        overflow-x: auto;
+                        white-space: nowrap;
+                    }
+                    .tabvae-scroll-wrapper img {
+                        width: 200%; /* コンテナの2倍の幅で描画 */
+                        max-width: none;
+                        height: auto;
+                    }
+
+
+                    /* ========================================================== */
+                    /* 2. PC/デスクトップ (デフォルト: 3分割) - レイアウトの基準 */
+                    /* ========================================================== */
+                    .main-content {
+                        display: flex;
+                        gap: 20px;
+                        margin-top: 15px;
+                        max-width: 1400px;
+                        margin-left: auto;
+                        margin-right: auto;
+                    }
+                    .info-column {
+                        flex: 1; /* 約1/5 */
+                        min-width: 200px;
+                        max-width: 300px;
+                    }
+                    .media-area {
+                        flex: 3; /* 約3/4 */
+                        display: flex;
+                        gap: 20px;
+                    }
+                    .pdf-audio-column {
+                        flex: 2; /* メディアエリア内での比率 2/5 */
+                        min-width: 350px;
+                        overflow: hidden; /* 内部コンテンツの押し広げを防ぐ */
+                    }
+                    .pdf-box embed {
+                        width: 100%;
+                        height: 600px;
+                        border: 1px solid var(--border-color);
+                        border-radius: 5px;
+                        min-width: 0; /* 埋め込み要素自体の最小幅制約を緩和 */
+                    }
+                    .image-column {
+                        flex: 2; /* メディアエリア内での比率 2/5 */
+                        display: flex;
+                        flex-direction: column;
+                        gap: 20px;
+                    }
+                    
+
+                    /* ========================================================== */
+                    /* 3. ノートPC (最大1200px: 2分割) - デフォルト設定を上書き */
+                    /* ========================================================== */
+                    @media (max-width: 1200px) { /* 1200px以下 */
+                        /* media-area内を縦積みに変更 */
+                        .media-area {
+                            flex-direction: column; 
+                            flex: 2;
+                            min-width: 0; 
+                        }
+                        .pdf-audio-column, .image-column {
+                            flex: none; 
+                            width: 100%; 
+                            min-width: 0; 
+                        }
+                    }
+
+                    /* ========================================================== */
+                    /* 4. タブレット/スマホ (最大900px: 1分割) - 3. の設定を上書き */
+                    /* ========================================================== */
+                    @media (max-width: 900px) { /* 900px以下 */
+                        /* 全体を強制的に縦積みに変更 */
+                        .main-content {
+                            flex-direction: column; 
+                        }
+                        .info-column, .media-area {
+                            width: 100%;
+                            max-width: none;
+                            flex: none;
+                            min-width: 0; 
+                        }
+                    }
+                    /* --- Index Layout (2分割) --- */
+                    .index-main-content {
+                        display: flex;
+                        gap: 20px;
+                        margin-top: 20px;
+                        max-width: 1400px;
+                        margin-left: auto;
+                        margin-right: auto;
+                    }
+                    .stats-column {
+                        flex: 1; /* 左側カラム: 統計情報 */
+                        min-width: 300px;
+                        display: flex;
+                        flex-direction: column;
+                        gap: 20px;
+                    }
+                    .table-column {
+                        flex: 3; /* 右側カラム: データテーブル */
+                    }
+                    /* レスポンシブ: 1200px以下で縦積みに */
+                    @media (max-width: 1200px) {
+                        .index-main-content {
+                            flex-direction: column;
+                        }
+                        .stats-column, .table-column {
+                            width: 100%;
+                            min-width: 250px;
+                            flex: none;
+                        }
+                    }
+
+                    /* --- Summary Card Design --- */
+                    .summary-card {
+                        background: var(--card-background);
+                        padding: 15px;
+                        border-radius: 8px;
+                        box-shadow: 0 4px 12px rgba(0,0,0,0.05);
+                    }
+                    .summary-card h3 {
+                        margin-top: 0;
+                        padding-bottom: 5px;
+                        border-bottom: 1px solid var(--border-color);
+                    }
+                    /* File Coverage Table */
+                    .file-coverage-table {
+                        width: 100%;
+                        border-collapse: collapse;
+                    }
+                    .file-coverage-table th, .file-coverage-table td {
+                        padding: 8px 5px;
+                        border-bottom: 1px dotted #eee;
+                        text-align: center;
+                    }
+                    .file-coverage-table td:nth-child(2), .file-coverage-table td:nth-child(3) {
+                        text-align: center; /* Count and %を中央寄せ */
+                        font-weight: 600;
+                    }
+                    .file-coverage-table th {
+                        font-weight: 700;
+                        color: #555;
+                        background-color: #f9f9f9;
+                    }
+                    /* Numerical Stats DL */
+                    .numerical-stats {
+                        display: flex; /* dtとddを横に並べる */
+                        justify-content: space-between; /* 項目名と値を左右に寄せる */
+                        padding: 5px 0;
+                        border-bottom: 1px dotted #eee;
+                    }
+
+                    .numerical-stats dt {
+                        /* 項目名（左側）を太字にして強調 */
+                        font-weight: 600;
+                        color: #555; /* 項目名を少し暗い色に */
+                        flex-shrink: 0; /* dtは縮まない */
+                        padding-right: 15px; /* 値との間にスペース */
+                    }
+
+                    .numerical-stats dd {
+                        /* 値（右側）は通常フォント、右寄せ */
+                        margin-left: 0; /* ddのデフォルトのインデントをリセット */
+                        text-align: right;
+                        flex-grow: 1; /* ddが残りの幅を全て使う */
+                        color: #333;
+                    }                    
+                    /* --- Vocabulary Link Button --- */
+                    .vocab-link {
+                        display: block; /* ブロック要素にして幅いっぱいにする */
+                        margin-top: 10px;
+                        padding: 10px 15px;
+                        text-align: center;
+                        text-decoration: none;
+                        font-weight: 700;
+                        color: white !important; /* 強制的に白文字 */
+                        background-color: #2ecc71; /* 緑系の強調色 */
+                        border-radius: 8px;
+                        box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+                        transition: background-color 0.3s, transform 0.1s;
+                    }
+                    .vocab-link:hover {
+                        background-color: #27ae60;
+                        transform: translateY(-1px);
+                    }
+
+                    /* --- Dataset Table Design (行全体リンク対応) --- */
+                    .dataset-table {
+                        width: 100%;
+                        border-collapse: collapse;
+                        background: var(--card-background);
+                        border-radius: 8px;
+                        box-shadow: 0 4px 12px rgba(0,0,0,0.05);
+                        overflow: hidden; /* 角丸対応 */
+                    }
+                    .dataset-table th, .dataset-table td {
+                        padding: 12px 15px;
+                        border-bottom: 1px solid var(--border-color);
+                        text-align: left;
+                    }
+                    .dataset-table thead tr {
+                        background-color: var(--primary-color);
+                        color: white;
+                    }
+                    .dataset-table tbody tr {
+                        cursor: pointer; /* マウスカーソルをポインターに変更 */
+                    }
+                    .dataset-table tbody tr:hover {
+                        background-color: #e8f4fd; /* ホバー時の色 */
+                    }
+                    /* リンクを解除したTitleカラムを強調 */
+                    .dataset-table tbody tr td:nth-child(3) { 
+                        color: var(--primary-color);
+                        font-weight: 600;
+                    }
+                    /* カード/リスト */
+                    .card {
+                        background: var(--card-background);
+                        padding: 15px 20px;
+                        border-radius: 8px;
+                        box-shadow: 0 4px 12px rgba(0,0,0,0.05);
+                        margin-bottom: 20px;
+                    }
+
+                    /* vocabulary.html */
+                    .vocabulary-main-container {
+                        display: flex;
+                        flex-direction: column;
+                        margin-top: 20px;
+                        margin-left: auto;
+                        margin-right: auto;
+                        max-width: 900px;
+                        min-width: 500px;
+                    }
+
+                    /* Summary リスト */
+                    .summary-list {
+                        list-style-type: none;
+                        padding-left: 0;
+                        /* 影なし */
+                        box-shadow: none;
+                    }
+                    .summary-list li {
+                        padding: 8px 0;
+                        border-bottom: 1px dotted #eee;
+                        font-weight: 500;
+                    }
+                    .summary-list li strong {
+                        color: var(--primary-color);
+                        font-weight: 700;
+                        margin-right: 10px;
+                    }
+                    .summary-list li:last-child {
+                        border-bottom: none;
+                    }
+                    
+                    /* 階層ツリー (Hierarchy Tree) */
+                    .hierarchy-tree {
+                        padding: 15px 5px; /* ツリー全体を少し内側に入れる */
+                    }
+
+                    /* 階層ごとのインデント */
+                    .hierarchy-tree details, 
+                    .hierarchy-tree .leaf {
+                        /* details/leaf要素自体に左マージンを追加し、インデントを表現 */
+                        margin-left: 20px; 
+                        margin-top: 5px;
+                    }
+
+                    /* summary（トグルの見出し）*/
+                    .hierarchy-tree summary {
+                        cursor: pointer;
+                        padding: 3px 0;
+                        list-style-type: none; /* デフォルトの矢印を非表示 */
+                        position: relative;
+                    }
+                    .hierarchy-tree summary::marker {
+                        display: none; /* Firefoxでのデフォルトマーカー非表示 */
+                    }
+                    .hierarchy-tree summary::before {
+                        /* カスタムのトグル矢印 (開いているときは下向き、閉じているときは右向き) */
+                        content: '▶';
+                        position: absolute;
+                        left: -15px;
+                        font-size: 0.8em;
+                        color: #555;
+                        transition: transform 0.2s;
+                    }
+                    .hierarchy-tree details[open] > summary::before {
+                        transform: rotate(90deg); /* 開いているときは回転 */
+                    }
+                    .hierarchy-tree .leaf::before {
+                        /* 階層ノードのトグル記号と同じ位置に表示 */
+                        content: '〇'; /* もしくは '—' や '▪' など */
+                        position: absolute;
+                        left: -15px;
+                        font-size: 0.7em;
+                        color: #999; /* 親ノードの記号より控えめな色 */
+                    }
+
+                    /* leafノードもsummaryと同様に相対位置を設定 */
+                    .hierarchy-tree .leaf {
+                        position: relative; /* ::beforeの位置基準 */
+                        padding: 3px 0;
+                        margin-left: 20px;
+                    }
+                    
+                    /* 階層ごとの太字設定 */
+                    .tree-level-1 > summary,
+                    .tree-level-1{ /* なぜかlevel-1だけは.leafにすると反映されない*/
+                        font-weight: 800; /* 最上位は特に太く */
+                        color: #2c3e50;
+                    }
+                    .tree-level-2 > summary,
+                    .tree-level-2 > .leaf {
+                        font-weight: 700;
+                        color: #34495e;
+                    }
+                    .tree-level-3 > summary,
+                    .tree-level-3 > .leaf,
+                    .tree-level-4 > summary,
+                    .tree-level-4 > .leaf {
+                        font-weight: 600;
+                        color: #555;
+                    }
+                    .tree-level-5 > summary,
+                    .tree-level-5 > .leaf,
+                    .tree-level-6 > summary,
+                    .tree-level-6 > .leaf {
+                        font-weight: 500;
+                        color: #777;
+                    }
+
+                    /* カウントのスタイル */
+                    .hierarchy-tree .count {
+                        color: #777;
+                        font-weight: 400;
+                        margin-left: 5px;
+                    }
+                    
+                    /* --- Top Tokens Table --- */
+                    .token-table {
+                        width: 100%;
+                        border-collapse: collapse;
+                    }
+                    .token-table th, .token-table td {
+                        padding: 8px 10px;
+                        border-bottom: 1px dotted #eee;
+                        text-align: center;
+                    }
+                    .token-table th {
+                        background-color: #f9f9f9;
+                        font-weight: 700;
+                        color: #555;
+                    }
+                    .token-table td:nth-child(1) { /* ID列 */
+                        width: 10%;
+                        text-align: center;
+                        font-weight: 600;
+                    }
+                    .token-table .token-text {
+                        font-family: 'Consolas', 'Courier New', monospace; /* トークンは見やすく */
+                        font-size: 0.95em;
+                        color: #333;
+                    }
+                    .token-table .token-count {
+                        width: 15%;
+                        text-align: center;
+                        font-weight: 600;
+                        color: var(--primary-color);
+                    }
+                    /* ========================================================== */
+                    /* ★★★ モーダル (全画面表示) のスタイル ★★★ */
+                    /* ========================================================== */
+
+                    body.modal-open {
+                        overflow: hidden;
+                    }
+
+                    /* 画像がクリック可能であることを示す */
+                    .clickable-image {
+                        cursor: zoom-in;
+                        transition: transform 0.2s;
+                    }
+                    .clickable-image:hover {
+                        transform: scale(1.02);
+                    }
+
+                    /* モーダル全体 (オーバーレイ) */
+                    .modal {
+                        display: none; 
+                        position: fixed; 
+                        z-index: 1000;
+                        left: 0 !important; /* 強制的に左端 */
+                        top: 0 !important;  /* 強制的に上端 */
+                        width: 100% !important;
+                        height: 100% !important;
+                        overflow: auto;
+                        background-color: rgba(0,0,0,0.9);
+                    }
+
+                    /* モーダル内のコンテンツを中央に配置するラッパー */
+                    .modal-content-wrapper {
+                        position: relative;
+                        top: 50%;
+                        transform: translateY(-50%);
+                        margin: auto;
+                        padding: 20px;
+                        max-width: 160%;
+                        max-height: 100vh;
+                        text-align: center;
+                    }
+
+                    /* 拡大画像自体 */
+                    .modal-content {
+                        margin: auto;
+                        display: block;
+                        width: auto; 
+                        max-width: 150%; /* 画面全体に対してマージンを設ける */
+                        max-height: 80vh; 
+                        box-shadow: 0 4px 20px rgba(0,0,0,0.4);
+                        transition: all 0.3s;
+                        touch-action: pan-y pinch-zoom
+                    }
+
+                    /* 閉じるボタン */
+                    .close {
+                        position: absolute;
+                        top: 15px;
+                        right: 35px;
+                        color: #f1f1f1;
+                        font-size: 40px;
+                        font-weight: bold;
+                        transition: 0.3s;
+                        z-index: 1001; /* 画像やキャプションより手前 */
+                    }
+                    .close:hover,
+                    .close:focus {
+                        color: #bbb;
+                        text-decoration: none;
+                        cursor: pointer;
+                    }
+
+                    /* キャプション */
+                    #caption {
+                        margin-top: 10px;
+                        color: #ccc;
+                        font-size: 17px;
+                        padding: 10px 0;
+                    }
+
+                    /* モバイル対応 (閉じるボタンを大きくする) */
+                    @media only screen and (max-width: 700px){
+                    .modal-content {
+                        max-width: 100%;
+                    }
+                    }
+            </style>
+        </head>
+        <body>
+            <div id="imageModal" class="modal">
+                <span class="close">&times;</span>
+                <div class="modal-content-wrapper">
+                    <img class="modal-content" id="expandedImage">
+                    <div id="caption"></div>
+                </div>
+            </div>
+            <nav>
+            <a href="../index.html">Index</a> |
+            <a href='00004.html'>Prev</a> |
+            <a href='00006.html'>Next</a>
+            </nav> 
+            
+            <h1>1349 - Riders Of The Apocalypse</h1>
+            <h2>Instrument: distorted0</h2>
+
+            <div class="main-content">
+
+                <div class="info-column">
+                    
+                    <h3>Files</h3>
+                    <ul>
+                        <li><a href="../../txt_format/1349 - Riders Of The Apocalypse_distorted0.txt" target="_blank">dadagp txt</a></li>
+                        <li><a href="../../GP_format/1349 - Riders Of The Apocalypse_distorted0.gp5" target="_blank">gp5</a></li>
+                        <li><a href="../../tabVAE_format/1349 - Riders Of The Apocalypse_distorted0.csv" target="_blank">tabVAE csv</a></li>
+                        <li><a href="../../scaleVAE_format/1349 - Riders Of The Apocalypse_distorted0.csv" target="_blank">scaleVAE csv</a></li>
+                        <li><a href="../../WAV_format/1349 - Riders Of The Apocalypse_distorted0.wav" target="_blank">wav</a></li>
+                        <li><a href="../../PDF_format/1349 - Riders Of The Apocalypse_distorted0.pdf" target="_blank">pdf</a></li>
+                        <li><a href="../../scaleVAE_format/xmls/1349 - Riders Of The Apocalypse_distorted0.xml" target="_blank">xml</a></li>
+                    </ul>
+
+                    <h3>Stats</h3>
+                    <dl class="stats-list">
+                        <div class="stat-item">
+                            <dt>Text measure</dt><dd>16</dd>
+                        </div>
+                        <div class="stat-item">
+                            <dt>Text note length [tick]</dt><dd> 61440</dd>
+                        </div>
+                        <div class="stat-item">
+                            <dt>Text total length [tick]</dt><dd> 61440</dd>
+                        </div>
+                        <div class="stat-item">
+                            <dt>Text note density (note/total)</dt><dd> 1.0</dd>
+                        </div>
+                        <div class="stat-item">
+                            <dt>XML measure</dt><dd> 16</dd>
+                        </div>
+                        <div class="stat-item">
+                            <dt>TabVAE rows</dt><dd> 12</dd>
+                        </div>
+                        <div class="stat-item">
+                            <dt>TabVAE cols</dt><dd> 768</dd>
+                        </div>
+                        <div class="stat-item">
+                            <dt>ScaleVAE rows</dt><dd> 74</dd>
+                        </div>
+                        <div class="stat-item">
+                            <dt>ScaleVAE cols</dt><dd> 256</dd>
+                        </div>
+                        <div class="stat-item">
+                            <dt>ScaleVAE min midi number</dt><dd> 40</dd>
+                        </div>
+                        <div class="stat-item">
+                            <dt>ScaleVAE max midi number</dt><dd> 76</dd>
+                        </div>
+                        <div class="stat-item">
+                            <dt>Wav length [sec]</dt><dd> 21.284988662131518</dd>
+                        </div>
+                        <div class="stat-item">
+                            <dt>Wav samples</dt><dd> 938668</dd>
+                        </div>
+                        <div class="stat-item">
+                            <dt>Wav rate [samples/sec]</dt><dd> 44100</dd>
+                        </div>
+                    </dl>
+                </div>
+
+
+                <div class="media-area">
+                    
+                    <div class="pdf-audio-column">
+                        <div class="pdf-box">
+                            <h3>Score</h3>
+                            <div class="pdf-label">Riders Of The Apocalypse</div>
+                            <embed src="..\..\PDF_format\1349 - Riders Of The Apocalypse_distorted0.pdf#toolbar=0&view=Fit" type="application/pdf">
+                            
+                            <h3>Audio</h3>
+                            <audio controls>
+                                <source src="..\..\WAV_format\1349 - Riders Of The Apocalypse_distorted0.wav" type="audio/wav">
+                                Your browser does not support the audio element.
+                            </audio>
+                        </div>
+                    </div>
+                    
+                    <div class="image-column">
+                        <div class="image-container">
+                            <h3>TabVAE</h3>
+                            <div class="tabvae-scroll-wrapper">
+                                <img class="clickable-image" 
+                                    src="images\00005_tab.png" 
+                                    alt="TabVAE"
+                                    data-src="images\00005_tab.png">
+                            </div>
+                        </div>
+                        <div class="image-container">
+                            <h3>ScaleVAE</h3>
+                                <img class="clickable-image" 
+                                    src="images\00005_scale.png" 
+                                    alt="ScaleVAE"
+                                    data-src="images\00005_scale.png">
+                        </div>
+                    
+                </div> 
+                
+            </div> 
+
+            <hr>
+
+            <script>
+                
+
+// write_html_page 関数内の <script> タグ内に記述
+
+const modal = document.getElementById("imageModal");
+const modalImg = document.getElementById("expandedImage");
+const captionText = document.getElementById("caption");
+const closeBtn = document.getElementsByClassName("close")[0];
+const images = document.querySelectorAll(".clickable-image");
+
+// -------------------------------------------------------------
+// ★★★ 拡大操作を許可/禁止するためのイベントハンドラ ★★★
+// -------------------------------------------------------------
+
+// モーダル内で発生したホイール/タッチイベントをキャッチし、伝播を停止するハンドラ
+function allowImageZoom(event) {
+    // このイベントが画像上で発生したことを確認し、windowへの伝播を停止
+    event.stopPropagation();
+    
+    // ただし、Ctrl/Cmdキーを伴うブラウザズームは強制的に防ぐ (ページズームを防ぐため)
+    if (event.ctrlKey || event.metaKey) {
+        event.preventDefault();
+    }
+}
+
+// 画像以外の場所、または window レベルで発生したイベントを禁止するハンドラ
+function preventDefault(event) {
+    event.preventDefault();
+}
+
+function handleModalOpen() {
+    modal.style.display = "block";
+    document.body.classList.add('modal-open');
+    
+    // -----------------------------------------------------------------
+    // ★★★ 抑制 (window レベル) ★★★
+    // -----------------------------------------------------------------
+    // ページ全体でのホイールスクロールやキーボードズームを禁止
+    window.addEventListener('keydown', preventDefault, { passive: false }); // Ctrl+/Cmd+ +/-
+    window.addEventListener('touchmove', preventDefault, { passive: false });
+    
+    // -----------------------------------------------------------------
+    // ★★★ 許可 (画像要素 レベル) ★★★
+    // -----------------------------------------------------------------
+}
+
+function handleModalClose() {
+    modal.style.display = "none";
+    document.body.classList.remove('modal-open');
+    
+    // -----------------------------------------------------------------
+    // ★★★ イベントを解除して通常の動作に戻す ★★★
+    // -----------------------------------------------------------------
+    
+    // 抑制イベントの解除
+    window.removeEventListener('keydown', preventDefault);
+    window.removeEventListener('touchmove', preventDefault);
+}
+
+// -------------------------------------------------------------
+// ★★★ モーダル開閉ロジック ★★★
+// -------------------------------------------------------------
+
+images.forEach(img => {
+    img.onclick = function(){
+        let src = this.getAttribute('data-src') || this.src;
+
+        modalImg.src = src;
+        captionText.innerHTML = this.alt || "拡大画像";
+        handleModalOpen();
+    }
+});
+
+// 閉じるボタン (x) をクリックしたとき
+closeBtn.onclick = handleModalClose;
+
+// モーダルの外側 (背景) をクリックしたとき
+window.onclick = function(event) {
+    if (event.target == modal) {
+        handleModalClose();
+    }
+}
+            </script>
+        </body>
+        </html>
+        
