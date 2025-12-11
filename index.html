@@ -6,14 +6,14 @@
     <title>Dataset Viewer - Root Index</title>
     <style>
         /* ========================================================== */
-        /* 共通デザインテーマ (これまでのビューアを踏襲) */
+        /* Common Design Theme (Inherited from the Viewer) */
         /* ========================================================== */
         :root {
-            --primary-color: #3498db;        /* 主要色（青） */
-            --background-color: #f4f7f9;     /* 背景色（薄いグレー） */
-            --text-color: #333;              /* テキスト色 */
-            --card-background: #ffffff;      /* カード背景色（白） */
-            --border-color: #e0e0e0;         /* ボーダー色 */
+            --primary-color: #3498db;        /* Primary Color (Blue) */
+            --background-color: #f4f7f9;     /* Background Color (Light Gray) */
+            --text-color: #333;              /* Text Color */
+            --card-background: #ffffff;      /* Card Background (White) */
+            --border-color: #e0e0e0;         /* Border Color */
         }
         body {
             font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -21,7 +21,7 @@
             color: var(--text-color);
             margin: 0;
             padding: 0;
-            display: flex; /* Flexboxで中央配置を容易にする */
+            display: flex; /* Use Flexbox for center alignment */
             justify-content: center;
             align-items: center;
             min-height: 100vh;
@@ -47,7 +47,7 @@
         }
         
         /* ========================================================== */
-        /* リダイレクトボタンのスタイル */
+        /* Redirect Button Style */
         /* ========================================================== */
         .redirect-button {
             display: inline-block;
@@ -74,12 +74,12 @@
     <div class="container">
         <h1>Dataset Viewer</h1>
         <p>
-            分析結果のインデックスページへ移動します。
-            下のボタンをクリックしてください。
+            Navigate to the Analysis Results Index page.
+            Please click the button below.
         </p>
         
         <a href="analysis_result/index.html" class="redirect-button">
-            分析結果を見る →
+            View Analysis Results →
         </a>
     </div>
 </body>
