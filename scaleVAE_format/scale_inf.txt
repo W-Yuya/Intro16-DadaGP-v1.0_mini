@@ -1,0 +1,3 @@
+min_midi:40
+max_midi:76
+total_quarter_length:64.0
