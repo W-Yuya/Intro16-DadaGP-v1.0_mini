@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Dataset Viewer - Root Index</title>
+    <style>
+        /* ========================================================== */
+        /* 共通デザインテーマ (これまでのビューアを踏襲) */
+        /* ========================================================== */
+        :root {
+            --primary-color: #3498db;        /* 主要色（青） */
+            --background-color: #f4f7f9;     /* 背景色（薄いグレー） */
+            --text-color: #333;              /* テキスト色 */
+            --card-background: #ffffff;      /* カード背景色（白） */
+            --border-color: #e0e0e0;         /* ボーダー色 */
+        }
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: var(--background-color);
+            color: var(--text-color);
+            margin: 0;
+            padding: 0;
+            display: flex; /* Flexboxで中央配置を容易にする */
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+        }
+        .container {
+            width: 90%;
+            max-width: 600px;
+            padding: 40px;
+            background: var(--card-background);
+            border-radius: 12px;
+            box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+            text-align: center;
+        }
+        h1 {
+            color: var(--primary-color);
+            font-size: 2.5em;
+            margin-bottom: 10px;
+        }
+        p {
+            font-size: 1.1em;
+            color: #555;
+            margin-bottom: 30px;
+        }
+        
+        /* ========================================================== */
+        /* リダイレクトボタンのスタイル */
+        /* ========================================================== */
+        .redirect-button {
+            display: inline-block;
+            padding: 15px 30px;
+            text-decoration: none;
+            font-size: 1.2em;
+            font-weight: 700;
+            color: white !important;
+            background-color: var(--primary-color);
+            border-radius: 8px;
+            transition: background-color 0.3s, transform 0.1s;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+        }
+        .redirect-button:hover {
+            background-color: #2980b9;
+            transform: translateY(-2px);
+        }
+        .redirect-button:active {
+            transform: translateY(0);
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Dataset Viewer</h1>
+        <p>
+            分析結果のインデックスページへ移動します。
+            下のボタンをクリックしてください。
+        </p>
+        
+        <a href="analysis_result/index.html" class="redirect-button">
+            分析結果を見る →
+        </a>
+    </div>
+</body>
+</html>
