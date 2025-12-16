@@ -1,170 +1,2680 @@
 count,path
-3245,clean0
-3245,clean0:note
-2389,wait
-1247,nfx
-1088,wait:480
-832,distorted0
-832,distorted0:note
-805,nfx:let_ring
-719,clean0:note:s3
-598,clean0:note:s2
-564,wait:320
-552,wait:240
-549,clean0:note:s4
-534,clean0:note:s1
-456,clean0:note:s6
-389,clean0:note:s5
-352,distorted1
-344,distorted1:note
-296,nfx:tie
-276,distorted0:note:s4
-276,distorted0:note:s5
-272,new_measure
-228,distorted0:note:s6
-222,bfx
-174,clean0:note:s4:f2
-173,clean0:note:s3:f0
-168,wait:960
-166,clean0:note:s4:f0
-152,bfx:stroke
-145,clean0:note:s1:f0
-144,clean0:note:s2:f3
-144,nfx:dead
-133,clean0:note:s2:f1
-128,clean0:note:s6:f3
-123,clean0:note:s3:f4
-122,distorted0:note:s6:f0
-121,distorted0:note:s4:f2
-121,distorted0:note:s5:f2
-116,distorted1:note:s4
-116,distorted1:note:s5
-114,clean0:note:s3:f2
-107,clean0:note:s5:f3
-96,bfx:stroke:2
-96,distorted0:note:s5:f5
-87,clean0:note:s2:f0
-83,clean0:note:s1:f3
-82,clean0:note:s6:f0
-78,clean0:note:s2:f4
-77,clean0:note:s3:f1
-75,clean0:note:s4:f5
-73,clean0:note:s6:f5
-73,distorted0:note:s6:f3
-72,distorted0:note:s4:f5
-70,bfx:has_rasgueado
-69,clean0:note:s5:f2
-64,distorted1:note:s6
-63,clean0:note:s5:f0
-62,clean0:note:s2:f5
-60,clean0:note:s1:f6
-60,bfx:stroke:2:32
-56,clean0:note:s1:f4
-56,bfx:stroke:1
-54,clean0:note:s1:f1
-52,distorted0:note:s3
-50,clean0:note:s5:f5
-48,distorted0:note:s4:f7
-48,distorted0:note:s5:f7
-48,distorted1:note:s3
-48,distorted1:note:s4:f0
-48,distorted1:note:s5:f0
-47,clean0:note:s3:f6
-47,clean0:note:s2:f2
-46,clean0:note:s3:f7
-46,clean0:note:s6:f7
-46,clean0:note:s4:f3
-44,clean0:note:s1:f5
-44,clean0:note:s6:f1
-44,distorted1:note:s5:f7
-42,clean0:note:s3:f3
-41,clean0:note:s6:f4
-40,distorted1:note:s4:f7
-36,clean0:note:s6:f2
-35,clean0:note:s3:f5
-34,clean0:note:s1:f7
-34,bfx:stroke:1:32
-32,clean0:note:s1:f2
-32,distorted1:note:s6:f0
-31,clean0:note:s2:f7
-29,clean0:note:s5:f1
-28,clean0:note:s3:f9
-28,clean0:note:s5:f4
-28,distorted1:note:s6:f5
-26,clean0:note:s4:f1
-24,clean0:note:s4:f4
-24,distorted0:note:s3:f7
-24,distorted0:note:s6:f5
-24,distorted0:note:s3:f9
-24,distorted0:note:s4:f9
-23,clean0:note:s5:f6
-22,clean0:note:s3:f8
-20,distorted1:note:s5:f5
-17,artist
-17,downtune
-17,tempo
-17,start
-17,end
-16,downtune:0
-16,bfx:stroke:2:64
-16,bfx:stroke:1:128
-16,bfx:stroke:2:128
-16,clean0:note:s4:f7
-16,distorted1:note:s3:f9
-16,distorted1:note:s4:f9
-16,distorted1:note:s3:f0
-16,distorted1:note:s3:f7
-14,clean0:note:s4:f6
-12,clean0:note:s5:f7
-12,clean0:note:s1:f9
-12,clean0:note:s3:f10
-12,distorted1:note:s4:f5
-9,wait:1920
-8,clean0:note:s5:f9
-8,clean0:note:s1:f11
-8,clean0:note:s2:f9
-8,distorted0:note:s4:f3
-8,clean0:note:s2:f6
-8,wait:3840
-8,distorted1:rest
-7,tempo:120
-6,clean0:note:s4:f9
-6,clean0:note:s1:f12
-6,bfx:stroke:1:16
+774191,wait
+635390,clean0
+634558,distorted0
+623130,clean0:note
+615690,distorted0:note
+354947,wait:480
+248533,nfx
+242523,wait:240
+185450,distorted0:note:s5
+144442,distorted0:note:s4
+133681,distorted0:note:s6
+131725,clean0:note:s3
+123083,clean0:note:s4
+120968,clean0:note:s2
+98768,new_measure
+98636,clean0:note:s5
+94643,distorted1
+91212,distorted1:note
+88243,clean0:note:s1
+83515,distorted0:note:s3
+76868,nfx:tie
+67467,wait:960
+63338,clean1
+61616,clean1:note
+60475,clean0:note:s6
+54449,nfx:dead
+48136,nfx:let_ring
+45269,distorted0:note:s6:f0
+41161,distorted0:note:s2
+37263,clean0:note:s3:f0
+33753,clean0:note:s3:f2
+32759,clean0:note:s4:f2
+32563,clean0:note:s1:f0
+30333,distorted0:note:s5:f5
+28107,clean0:note:s2:f3
+27936,clean0:note:s4:f0
+27441,distorted0:note:s1
+27434,distorted0:note:s5:f0
+27172,distorted0:note:s5:f2
+27133,clean0:note:s2:f0
+26636,param
+26342,wait:320
+26058,distorted0:note:s5:f7
+24961,distorted1:note:s5
+22870,distorted0:note:s4:f7
+22723,clean0:note:s5:f0
+22465,nfx:palm_mute
+21850,distorted1:note:s4
+21767,distorted0:note:s5:f3
+21588,wait:120
+21317,distorted0:note:s4:f5
+21160,clean0:note:s2:f1
+20907,clean0:note:s5:f2
+20543,distorted0:note:s6:f3
+19889,clean0:note:s6:f0
+19626,distorted0:note:s4:f2
+19416,wait:160
+18868,distorted0:rest
+18051,distorted0:note:s6:f5
+17761,bfx
+17581,distorted1:note:s6
+17149,clean0:note:s5:f3
+16997,distorted2
+16949,nfx:hammer
+16571,distorted2:note
+16327,distorted0:note:s4:f0
+15125,clean0:note:s1:f3
+14716,clean0:note:s6:f3
+14615,distorted0:note:s4:f4
+14540,distorted1:note:s3
+13958,distorted0:note:s5:f4
+13782,bfx:stroke
+13512,distorted0:note:s4:f9
+13105,distorted0:note:s6:f2
+12732,clean1:note:s3
+12606,clean1:note:s4
+12260,clean0:rest
+11899,clean1:note:s2
+11583,clean0:note:s4:f4
+11489,distorted0:note:s3:f7
+11161,clean0:note:s3:f4
+10906,clean0:note:s4:f5
+10738,distorted0:note:s3:f2
+10420,clean0:note:s4:f7
+10211,wait:1920
+10140,clean0:note:s1:f2
+10029,clean0:note:s4:f3
+9945,clean1:note:s5
+9876,nfx:ghost_note
+9843,clean0:note:s5:f5
+9804,distorted0:note:s3:f4
+9790,distorted0:note:s3:f0
+9455,nfx:slide
+9384,distorted0:note:s3:f5
+9279,distorted0:note:s4:f3
+9255,clean0:note:s3:f5
+9223,clean0:note:s2:f2
+9216,clean1:note:s1
+9131,distorted0:note:s6:f1
+9128,bfx:stroke:2
+9034,distorted0:note:s5:f6
+8478,clean0:note:s2:f5
+8410,clean0:note:s5:f7
+8218,distorted0:note:s4:f6
+8111,distorted0:note:s3:f9
+8066,wait:3840
+7879,wait:720
+7819,clean0:note:s3:f7
+7777,distorted0:note:s6:f7
+7776,distorted0:note:s6:f4
+7723,distorted0:note:s5:f9
+7601,distorted1:note:s2
+7441,clean0:note:s3:f3
+7287,clean0:note:s1:f5
+7240,clean0:note:s1:f1
+7139,nfx:slide:1
+7131,distorted0:note:s5:f8
+6917,distorted0:note:s2:f0
+6756,clean0:note:s5:f4
+6221,param:val0
+6209,clean0:note:s3:f1
+6209,param:val0:vib0
+6173,artist
+6173,downtune
+6173,tempo
+6173,start
+6173,end
+6066,distorted0:note:s1:f0
+5880,clean0:note:s2:f4
+5857,clean0:note:s3:f6
+5746,distorted1:note:s6:f0
+5656,distorted0:note:s5:f10
+5623,clean0:note:s4:f6
+5620,clean0:note:s6:f5
+5569,distorted0:note:s4:f10
+5495,wait:1440
+5392,distorted0:note:s2:f3
+5292,downtune:0
+5260,distorted0:note:s4:f8
+5241,clean0:note:s6:f2
+5218,clean1:note:s6
+4931,param:dur6
+4856,clean0:note:s4:f9
+4816,distorted0:note:s5:f1
+4803,distorted1:note:s5:f5
+4695,clean0:note:s2:f7
+4679,distorted1:note:s1
+4668,bfx:stroke:2:32
+4654,bfx:stroke:1
+4627,distorted0:note:s6:f6
+4620,clean0:note:s6:f1
+4616,clean0:note:s2:f8
+4601,param:val4
+4592,param:val4:vib0
+4498,clean0:note:s2:f6
+4473,distorted0:note:s3:f6
+4427,clean0:note:s3:f9
+4091,distorted1:note:s4:f7
+4005,distorted2:note:s5
+3963,clean0:note:s1:f7
+3781,nfx:bend
+3716,clean0:note:s5:f6
+3667,distorted0:note:s6:f8
+3625,distorted0:note:s2:f5
+3610,clean1:note:s4:f2
+3574,param:dur3
+3521,distorted1:note:s5:f2
+3464,distorted1:note:s5:f7
+3459,clean1:note:s3:f2
+3431,distorted1:rest
+3425,clean1:note:s1:f0
+3229,distorted0:note:s3:f8
+3226,distorted0:note:s3:f3
+3226,distorted2:note:s3
+3200,clean0:note:s1:f4
+3163,distorted2:note:s4
+3141,distorted1:note:s5:f0
+3061,clean0:note:s6:f4
+3014,distorted1:note:s5:f3
+3001,distorted1:note:s4:f5
+2954,clean0:note:s3:f8
+2946,distorted0:note:s2:f10
+2903,bfx:stroke:1:32
+2880,distorted1:note:s4:f0
+2855,clean1:note:s3:f0
+2844,distorted1:note:s6:f3
+2826,distorted0:note:s2:f8
+2813,clean1:note:s5:f2
+2750,clean0:note:s6:f7
+2702,distorted2:note:s6
+2649,distorted0:note:s2:f7
+2633,nfx:bend:type1
+2613,clean1:note:s2:f3
+2591,clean0:note:s4:f8
+2582,wait:360
+2502,distorted1:note:s4:f2
+2491,distorted1:note:s4:f4
+2486,distorted0:note:s4:f12
+2478,distorted0:note:s3:f10
+2464,clean0:note:s2:f10
+2453,clean1:note:s4:f0
+2447,distorted1:note:s6:f5
+2389,clean1:note:s2:f0
+2359,distorted0:note:s1:f5
+2347,distorted0:note:s3:f11
+2328,clean1:note:s2:f1
+2312,clean0:note:s5:f9
+2303,distorted0:note:s2:f1
+2285,distorted0:note:s3:f12
+2250,distorted1:note:s5:f4
+2248,distorted0:note:s1:f3
+2217,clean0:note:s5:f8
+2158,distorted1:note:s3:f7
+2116,clean0:note:s5:f1
+2109,distorted0:note:s2:f12
+2106,clean1:note:s5:f0
+2095,nfx:vibrato
+2044,distorted2:note:s2
+1999,param:val2
+1995,param:val2:vib0
+1984,clean0:note:s1:f8
+1973,distorted0:note:s2:f6
+1972,distorted0:note:s2:f2
+1972,distorted0:note:s1:f7
+1965,clean0:note:s4:f1
+1931,distorted0:note:s3:f14
+1928,distorted0:note:s4:f11
+1921,clean0:note:s1:f6
+1918,clean0:note:s6:f6
+1898,distorted0:note:s1:f12
+1896,distorted1:note:s6:f2
+1892,clean0:note:s2:f9
+1831,distorted0:note:s1:f2
+1825,distorted1:note:s3:f0
+1804,distorted1:note:s4:f9
+1759,distorted0:note:s2:f4
+1751,distorted0:note:s3:f1
+1740,wait:2880
+1732,wait:640
+1722,clean1:rest
+1687,distorted0:note:s5:f12
+1685,nfx:staccato
+1635,distorted1:note:s3:f4
+1635,clean0:note:s4:f10
+1622,clean1:note:s6:f0
+1598,clean0:note:s3:f10
+1576,nfx:grace
+1576,distorted1:note:s3:f5
+1574,bfx:stroke:2:16
+1551,clean0:note:s3:f11
+1542,distorted1:note:s3:f2
+1519,distorted0:note:s1:f10
+1470,clean1:note:s5:f3
+1464,clean1:note:s4:f7
+1438,distorted0:note:s1:f8
+1431,distorted2:note:s1
+1430,tempo:120
+1428,distorted1:note:s4:f3
+1414,clean1:note:s1:f2
+1412,clean1:note:s1:f3
+1376,distorted0:note:s2:f15
+1373,wait:60
+1370,distorted1:note:s6:f1
+1353,distorted0:note:s6:f10
+1353,bfx:slap_effect
+1335,distorted1:note:s4:f6
+1331,clean1:note:s4:f4
+1328,clean1:note:s6:f3
+1323,bfx:slap_effect:1
+1315,distorted1:note:s3:f9
+1296,distorted0:note:s4:f1
+1294,clean1:note:s3:f4
+1267,clean0:note:s1:f10
+1259,clean1:note:s2:f2
+1245,clean0:note:s6:f8
+1217,clean0:note:s4:f11
+1212,clean1:note:s5:f5
+1200,distorted1:note:s2:f3
+1194,distorted1:note:s5:f6
+1155,distorted0:note:s2:f9
+1154,distorted0:note:s2:f13
+1153,distorted1:note:s2:f0
+1148,distorted0:note:s1:f4
+1141,clean1:note:s4:f3
+1135,distorted0:note:s5:f11
+1130,clean0:note:s3:f12
+1122,distorted0:note:s6:f9
+1092,bfx:stroke:2:64
+1068,bfx:tempo_change
+1060,distorted2:note:s6:f0
+1055,param:val1
+1055,param:val1:vib0
+1040,distorted1:note:s6:f7
+1029,nfx:slide:2
+1027,clean0:note:s1:f9
+1018,clean0:note:s5:f10
+1014,clean1:note:s2:f5
+998,distorted0:note:s1:f1
+996,distorted1:note:s6:f4
+995,clean1:note:s4:f5
+978,param:duration128
+968,clean1:note:s1:f1
+967,clean0:note:s1:f12
+957,distorted0:note:s4:f14
+930,clean1:note:s3:f1
+907,distorted1:note:s1:f0
+904,distorted1:note:s5:f9
+883,clean0:note:s4:f12
+882,distorted0:note:s1:f15
+880,clean1:note:s3:f5
+877,bfx:stroke:1:64
+857,param:duration128:dead0
+857,param:duration128:dead0:beat0
+856,clean0:note:s2:f12
+836,nfx:harmonic
+834,distorted0:note:s1:f14
+834,distorted0:note:s2:f11
+825,clean1:note:s3:f3
+820,distorted1:note:s3:f6
+820,nfx:bend:type2
+819,wait:80
+805,distorted0:note:s1:f17
+776,distorted2:note:s5:f5
+766,clean1:note:s5:f4
+761,clean1:note:s3:f7
+752,clean1:note:s5:f7
+746,clean1:note:s1:f5
+741,wait:180
+737,distorted1:note:s5:f8
+728,bfx:pick_stroke
+723,distorted1:note:s5:f1
+719,distorted2:note:s5:f3
+684,distorted0:note:s5:f14
+679,distorted1:note:s2:f5
+678,distorted0:note:s1:f13
+669,bfx:stroke:2:8
+666,distorted2:note:s5:f0
+665,distorted0:note:s2:f17
+662,wait:137
+652,distorted1:note:s4:f10
+644,clean0:note:s2:f11
+641,clean0:note:s5:f12
+637,distorted1:note:s4:f8
+635,clean1:note:s3:f6
+635,distorted1:note:s3:f3
+627,distorted0:note:s3:f13
+626,distorted0:note:s2:f14
+618,clean1:note:s6:f2
+612,distorted2:note:s4:f0
+612,param:duration128:dead0:beat0:transition2
+611,nfx:slide:3
+604,tempo:140
+604,distorted0:note:s3:f16
+594,distorted0:note:s3:f15
+594,distorted1:note:s2:f8
+593,clean1:note:s6:f5
+592,distorted1:note:s5:f10
+584,distorted0:note:s6:f12
+581,tempo:100
+570,distorted0:note:s1:f9
+568,param:dur4
+563,bfx:stroke:2:4
+562,bfx:stroke:2:128
+560,distorted0:note:s1:f6
+556,clean0:note:s2:f13
+545,clean0:note:s6:f9
+525,distorted2:note:s5:f2
+518,clean1:note:s2:f6
+512,clean0:note:s3:f14
+510,distorted1:note:s3:f12
+507,distorted2:note:s6:f3
+500,distorted1:note:s2:f10
+499,param:dur2
+499,distorted0:note:s1:f11
+494,distorted1:note:s6:f6
+493,clean1:note:s4:f6
+492,clean0:note:s6:f10
+489,downtune:-1
+489,distorted1:note:s3:f8
+488,distorted2:note:s5:f7
+475,bfx:stroke:1:16
+464,distorted2:note:s4:f7
+463,nfx:slide:-1
+460,clean0:note:s5:f11
+459,distorted2:note:s4:f5
+455,clean1:note:s6:f1
+454,distorted2:note:s3:f7
+453,tempo:130
+445,nfx:harmonic:1
+445,bfx:pick_stroke:2
+441,param:dur1
+432,distorted2:note:s3:f5
+431,clean1:note:s4:f9
+426,distorted2:rest
+425,distorted1:note:s1:f3
+425,distorted1:note:s1:f2
+420,distorted1:note:s2:f12
+417,distorted1:note:s1:f5
+409,clean1:note:s1:f4
+405,clean1:note:s2:f4
+403,distorted1:note:s3:f1
+401,distorted1:note:s2:f7
+397,clean0:note:s1:f11
+392,distorted1:note:s3:f14
+390,distorted1:note:s6:f8
+390,distorted0:note:s4:f13
+387,tempo:160
+387,clean1:note:s1:f7
+378,distorted2:note:s3:f2
+366,tempo:80
+365,distorted1:note:s2:f2
+362,distorted0:note:s5:f13
+356,distorted0:note:s1:f19
+352,clean0:note:s3:f13
+349,clean1:note:s3:f9
+339,distorted0:note:s1:f16
+337,tempo:180
+337,param:duration64
+337,distorted1:note:s1:f12
+333,tempo:110
+329,tempo:150
+328,param:duration64:dead0
+328,param:duration64:dead0:beat0
+324,clean1:note:s2:f7
+323,distorted2:note:s6:f5
+322,distorted1:note:s3:f10
+317,tempo:90
+316,distorted2:note:s3:f9
+314,bfx:stroke:1:128
+309,distorted0:note:s3:f17
+303,distorted1:note:s3:f11
+299,distorted2:note:s4:f2
+298,distorted1:note:s2:f15
+297,clean0:note:s1:f15
+297,distorted0:note:s6:f11
+287,distorted1:note:s4:f12
+286,distorted1:note:s2:f1
+286,distorted2:note:s3:f0
+283,bfx:pick_stroke:1
+282,distorted1:note:s2:f17
+278,clean1:note:s2:f8
+273,distorted2:note:s2:f10
+268,distorted0:note:s4:f15
+266,bfx:vibrato
+266,distorted1:note:s1:f15
+265,clean0:note:s4:f14
+261,distorted2:note:s3:f12
+258,distorted2:note:s4:f4
+254,distorted1:note:s2:f4
+252,clean0:note:s1:f13
+252,clean1:note:s3:f8
+248,distorted0:note:s2:f19
+247,distorted2:note:s4:f3
+245,clean0:note:s2:f17
+242,clean0:note:s1:f17
+238,distorted1:note:s5:f12
+237,param:duration16
+237,param:duration16:dead0
+237,param:duration16:dead0:beat0
+236,distorted1:note:s2:f6
+236,distorted2:note:s2:f3
+236,distorted1:note:s2:f9
+234,clean1:note:s5:f6
+228,distorted0:note:s2:f16
+225,nfx:harmonic:2
+224,distorted1:note:s1:f10
+222,wait:192
+221,distorted0:note:s2:f18
+221,nfx:tremoloPicking
+221,distorted0:note:s5:f15
+219,nfx:grace:fret0
+216,param:duration64:dead0:beat0:transition2
+215,distorted2:note:s6:f2
+213,nfx:grace:fret3
+213,clean1:note:s3:f11
+211,bfx:has_rasgueado
+211,bfx:tremolo_bar
+211,clean1:note:s5:f9
+210,distorted2:note:s1:f12
+208,clean0:note:s2:f15
+208,distorted2:note:s3:f4
+207,distorted2:note:s4:f9
+202,distorted2:note:s5:f4
+202,distorted2:note:s2:f12
+202,distorted1:note:s1:f7
+202,downtune:-2
+200,clean1:note:s4:f1
+199,distorted2:note:s4:f12
+197,nfx:grace:fret5
+192,tempo:170
+192,tempo:200
+189,distorted1:note:s1:f17
+189,clean0:note:s1:f14
+186,clean1:note:s2:f12
+185,distorted0:note:s4:f16
+183,distorted2:note:s2:f8
+183,clean1:note:s6:f4
+183,clean1:note:s6:f7
+180,nfx:slide:4
+179,distorted1:note:s3:f16
+176,clean0:note:s3:f16
+174,param:duration128:dead0:beat0:transition1
+169,param:duration16:dead0:beat0:transition2
+169,distorted1:note:s1:f9
+168,distorted1:note:s1:f4
+168,clean1:note:s2:f10
+167,tempo:70
+166,distorted2:note:s1:f0
+165,distorted2:note:s6:f1
+164,bfx:tremolo_bar:type6
+163,distorted2:note:s3:f3
+161,wait:96
+159,distorted2:note:s2:f0
+157,clean0:note:s2:f14
+157,distorted2:note:s3:f14
+154,distorted2:note:s2:f5
+154,clean0:note:s4:f15
+152,nfx:bend:type5
+151,distorted2:note:s1:f15
+150,nfx:grace:fret2
+150,nfx:tremoloPicking:duration120
+147,distorted1:note:s4:f11
+147,distorted1:note:s6:f10
+146,distorted1:note:s1:f8
+145,distorted2:note:s2:f13
+145,distorted1:note:s2:f13
+145,distorted1:note:s2:f11
+144,distorted0:note:s4:f17
+143,clean0:note:s4:f13
+143,clean1:note:s3:f12
+142,distorted0:note:s1:f18
+142,distorted1:note:s4:f1
+140,clean0:note:s6:f12
+140,param:dur12
+140,clean1:note:s2:f9
+135,distorted2:note:s5:f6
+132,distorted1:note:s1:f14
+130,clean1:note:s5:f1
+130,nfx:grace:fret-1
+128,distorted2:note:s2:f15
+128,clean0:note:s5:f14
+127,distorted2:note:s5:f1
+126,distorted2:note:s1:f17
+126,distorted1:note:s2:f14
+122,nfx:bend:type4
+122,distorted1:note:s4:f14
+121,bfx:tempo_change:120
+121,param:duration128:dead1
+121,param:duration128:dead1:beat0
+120,distorted0:note:s4:f19
+118,nfx:grace:fret1
+117,tempo:190
+116,distorted0:note:s1:f20
+116,distorted2:note:s6:f4
+114,distorted2:note:s4:f10
+114,distorted0:note:s6:f13
+114,clean1:note:s5:f10
+113,clean0:note:s6:f11
+113,artist:Beatles (The)
+112,distorted1:note:s5:f11
+111,nfx:grace:fret7
+111,distorted1:note:s1:f1
+111,nfx:grace:fret4
+111,distorted0:note:s3:f18
+110,distorted2:note:s3:f11
+110,distorted1:note:s3:f15
+109,clean1:note:s4:f12
+108,distorted0:note:s3:f19
+108,bfx:fade_in
+108,param:val12
+108,param:val12:vib0
+108,tempo:60
+108,clean0:note:s3:f17
+107,bfx:tempo_change:110
+107,distorted0:note:s5:f16
+106,nfx:trill
+105,param:dur9
+104,distorted0:note:s2:f20
+103,distorted2:note:s1:f10
+103,distorted2:note:s3:f10
+103,bfx:tempo_change:100
+102,distorted1:note:s1:f13
+100,distorted2:note:s4:f14
+100,distorted2:note:s2:f17
+98,clean1:note:s2:f15
+97,clean1:note:s4:f10
+96,distorted1:note:s5:f14
+95,clean1:note:s1:f12
+94,clean1:note:s4:f8
+94,nfx:harmonic:5
+94,distorted1:note:s3:f13
+93,distorted2:note:s3:f8
+93,clean0:note:s5:f15
+92,wait:1280
+90,clean1:note:s1:f6
+90,distorted1:note:s3:f17
+90,distorted2:note:s6:f6
+89,distorted2:note:s5:f12
+89,param:val6
+89,param:val6:vib0
+88,distorted2:note:s5:f10
+87,distorted1:note:s4:f16
+87,param:dur5
+87,param:val-4
+87,param:val-4:vib0
+87,distorted2:note:s6:f7
+86,distorted0:note:s5:f17
+84,distorted1:note:s1:f18
+83,distorted0:note:s6:f15
+83,artist:Composers Of MSB
+82,nfx:grace:fret6
+81,distorted2:note:s4:f6
+81,bfx:tempo_change:130
+81,param:duration240
+80,distorted2:note:s2:f7
+80,artist:Blink 182
+79,"artist:Clapton, Eric"
+78,distorted1:note:s1:f19
+78,clean0:note:s3:f15
+77,clean1:note:s6:f10
+77,distorted1:note:s2:f18
+77,distorted0:note:s1:f21
+76,distorted0:note:s1:f22
+76,clean1:note:s6:f8
+75,distorted1:note:s1:f6
+74,clean1:note:s1:f8
+74,distorted1:note:s2:f16
+74,distorted0:note:s6:f14
+73,distorted1:note:s3:f20
+73,wait:106
+72,distorted2:note:s1:f5
+72,clean1:note:s4:f11
+72,clean1:note:s4:f14
+72,nfx:harmonic:4
+71,param:duration128:dead0:beat0:transition3
+71,clean1:note:s1:f10
+71,artist:Green Day
+70,bfx:stroke:1:8
+69,clean0:note:s1:f16
+69,param:val-8
+69,param:val-8:vib0
+69,distorted2:note:s1:f14
+69,distorted1:note:s6:f9
+69,nfx:grace:fret9
+68,bfx:tempo_change:140
+67,bfx:tempo_change:80
+66,clean1:note:s2:f13
+66,downtune:-3
+66,clean0:note:s5:f13
+65,clean1:note:s3:f14
+64,distorted2:note:s5:f9
+64,clean1:note:s2:f17
+64,"artist:Dadi, Marcel"
+63,bfx:tempo_change:180
+63,bfx:tempo_change:90
+63,distorted1:note:s4:f20
+62,downtune:-5
+62,distorted1:note:s2:f20
+62,bfx:tempo_change:160
+62,distorted2:note:s2:f6
+61,distorted2:note:s1:f13
+61,distorted2:note:s3:f16
+61,param:val3
+61,param:val3:vib0
+60,clean1:note:s6:f6
+60,tempo:220
+60,distorted2:note:s1:f7
+60,distorted1:note:s1:f20
+60,param:duration128:dead1:beat0:transition1
+59,param:val8
+59,param:val8:vib0
+59,nfx:tremoloPicking:duration240
+59,downtune:-4
+59,distorted2:note:s1:f3
+59,distorted1:note:s1:f16
+59,artist:Guns N' Roses
+58,nfx:harmonic:2:pitch7
+58,distorted1:note:s1:f11
+58,param:duration64:dead0:beat0:transition1
+57,clean0:note:s6:f13
+57,bfx:tempo_change:150
+56,distorted2:note:s6:f8
+56,artist:Bon Jovi
+55,artist:ACDC
+55,distorted2:note:s2:f14
+54,clean1:note:s1:f9
+54,param:duration64:dead0:beat0:transition3
+54,distorted2:note:s1:f8
+54,nfx:bend:type3
+53,distorted1:note:s4:f17
+53,distorted2:note:s1:f2
+53,nfx:grace:fret10
+52,clean1:note:s5:f8
+52,clean0:note:s1:f19
+52,clean1:note:s5:f12
+51,param:duration128:dead1:beat0:transition2
+51,artist:Deep Purple
+50,distorted2:note:s4:f8
+49,distorted2:note:s1:f19
+49,nfx:harmonic:2:pitch7:octave1
+49,distorted0:note:s2:f22
+48,bfx:tempo_change:60
+47,tempo:210
+47,distorted2:note:s2:f2
+47,distorted0:note:s3:f21
+47,artist:Black Sabbath
+46,distorted2:note:s2:f9
+46,distorted2:note:s3:f15
+45,distorted1:note:s3:f19
+43,tempo:240
+43,clean0:note:s3:f18
+43,distorted2:note:s2:f18
+42,distorted0:note:s3:f20
+42,param:dur10
+42,clean0:note:s2:f16
+41,distorted1:note:s4:f15
+41,"artist:Bach, Johann Sebastian"
+40,distorted1:note:s5:f17
+40,distorted2:note:s3:f17
+40,distorted2:note:s2:f11
+39,"artist:Atkins, Chet"
+38,clean0:note:s2:f19
+38,distorted1:note:s4:f19
+38,clean0:note:s2:f18
+37,nfx:harmonic:2:pitch4
+37,distorted2:note:s6:f12
+37,artist:Bad Religion
+36,distorted0:note:s5:f19
+36,artist:Accept
+36,distorted2:note:s5:f8
+36,nfx:grace:fret11
+36,distorted1:note:s5:f15
+36,distorted2:note:s3:f6
+36,param:duration16:dead0:beat0:transition3
+36,artist:Blind Guardian
+35,clean0:note:s4:f16
+35,nfx:grace:fret8
+35,bfx:tempo_change:170
+35,artist:Aria
+35,"artist:Cabrel, Francis"
+34,distorted1:note:s2:f19
+34,bfx:tempo_interpolation
+34,distorted0:note:s4:f18
+34,distorted1:note:s2:f21
+34,distorted2:note:s1:f1
+34,artist:HammerFall
+33,nfx:slide:-2
+33,distorted1:note:s5:f13
+33,artist:Aerosmith
+33,param:val-12
+33,param:val-12:vib0
+32,bfx:tempo_change:200
+32,param:duration16:dead0:beat0:transition1
+32,distorted2:note:s3:f1
+32,clean1:note:s3:f10
+32,artist:Glay
+32,distorted2:note:s6:f13
+32,"artist:Goldman, Jean-Jacques"
+32,artist:Helloween
+31,param:val-2
+31,param:val-2:vib0
+31,distorted1:note:s4:f13
+31,artist:Alice In Chains
+31,nfx:trill:fret5
+31,distorted2:note:s1:f4
+31,clean0:note:s1:f18
+31,artist:Die erzte
+30,distorted2:note:s5:f11
+30,distorted2:note:s3:f13
+30,distorted2:note:s1:f11
+30,clean0:note:s4:f18
+30,artist:Cure (The)
+30,artist:Dream Theater
+29,artist:AC-DC
+29,clean0:note:s3:f19
+29,"artist:Frusciante, John"
+28,distorted2:note:s5:f14
+28,clean0:note:s5:f16
+28,distorted0:note:s6:f17
+28,clean1:note:s2:f11
+27,distorted0:note:s1:f24
+27,bfx:tempo_change:240
+26,distorted1:note:s6:f12
+26,distorted2:note:s2:f20
+26,artist:Def Leppard
+25,clean1:note:s1:f11
+25,param:dur7
+25,distorted1:note:s1:f22
+25,artist:Children Of Bodom
+25,"artist:Dickinson, Bruce"
+24,artist:311
+24,tempo:230
+24,distorted2:note:s1:f9
+24,param:duration32
+24,param:duration32:dead0
+24,param:duration32:dead0:beat0
+24,clean0:note:s4:f19
+24,artist:AFI
+24,artist:Angra
+24,clean1:note:s4:f13
+24,clean1:note:s1:f19
+23,nfx:harmonic:2:pitch9
+23,clean0:note:s5:f19
+23,nfx:trill:fret7
+23,bfx:tempo_change:50
+23,distorted2:note:s4:f16
+23,"artist:Harper, Ben"
+22,bfx:tremolo_bar:type7
+22,nfx:grace:fret12
+22,distorted2:note:s4:f11
+22,distorted2:note:s2:f16
+22,distorted1:note:s5:f16
+22,distorted1:note:s3:f18
+22,clean0:note:s4:f17
+22,distorted0:note:s4:f21
+22,param:val5
+22,param:val5:vib0
+22,artist:Blues Exercises
+22,wait:141
+22,artist:Charlie Brown Jr
+22,clean1:note:s3:f16
+22,artist:Dimmu Borgir
+22,artist:Extreme
+22,artist:Foo Fighters
+22,"artist:Gilbert, Paul"
+21,distorted1:note:s6:f11
+21,clean0:note:s5:f17
+21,clean0:note:s6:f17
+21,param:duration120
+21,artist:Darkthrone
+21,artist:Emperor
+21,artist:Guitar Player Lia%0es
+20,nfx:harmonic:2:pitch9:octave1
+20,bfx:tempo_change:190
+20,artist:Animetal
+20,artist:Composers of MSB
+20,distorted2:note:s1:f6
+19,nfx:harmonic:2:pitch2
+19,nfx:harmonic:2:pitch2:octave1
+19,distorted1:note:s5:f19
+19,clean1:note:s6:f9
+19,nfx:harmonic:2:pitch4:octave2
+19,distorted2:note:s5:f17
+19,artist:ALMAFUERTE
+19,clean1:note:s5:f14
+19,artist:Cannibal Corpse
+19,distorted0:note:s3:f24
+19,artist:Cranberries
+19,artist:Death
+18,nfx:harmonic:2:pitch4:octave1
+18,nfx:harmonic:2:pitch11
+18,distorted2:note:s1:f18
+18,artist:Alkaline Trio
+18,nfx:accentuated_note
+18,nfx:harmonic:2:pitch0
+18,"artist:Brassens, Georges"
+18,"artist:Cambefort, JP"
+18,bfx:tremolo_bar:type9
+18,"artist:Dio, Ronnie James"
+18,artist:Doors (The)
+18,distorted2:note:s2:f1
+18,artist:Grave Digger
+18,artist:HIM
+17,clean0:note:s6:f16
+17,nfx:heavy_accentuated_note
+17,distorted1:note:s5:f20
+17,nfx:harmonic:2:pitch0:octave1
+17,artist:Blur
+17,distorted1:note:s4:f18
+17,artist:Edguy
+17,artist:Eternity
+17,"artist:Gallagher, Rory"
+17,"artist:Grossman, Stefan"
+16,tempo:250
+16,distorted2:note:s1:f20
+16,clean0:note:s2:f22
+16,clean0:note:s1:f20
+16,distorted2:note:s2:f19
+16,artist:Dissection
+16,"artist:Dylan, Bob"
+16,artist:Gamma Ray
+16,"artist:Hallyday, Johnny"
+15,param:dur8
+15,bfx:tempo_change:220
+15,nfx:trill:fret8
+15,distorted0:note:s6:f18
+15,bfx:stroke:1:4
+15,"artist:Blackmore, Ritchie"
+15,bfx:slap_effect:3
+15,bfx:slap_effect:2
+15,artist:Call Us Junior's Project
+15,artist:Carcass
+14,distorted2:note:s1:f21
+14,tempo:50
+14,artist:Amon Amarth
+14,artist:Anathema
+14,param:val-24
+14,param:val-24:vib0
+14,nfx:grace:fret14
+14,bfx:tempo_change:70
+14,artist:Bathory
+14,nfx:harmonic:2:pitch5
+14,distorted1:note:s1:f21
+14,artist:Coldplay
+14,artist:Dave Matthews
+14,artist:Deicide
+14,artist:Heavy Metal Guitar School
+13,distorted2:note:s4:f15
+13,param:duration32:dead0:beat0:transition2
+13,param:val-16
+13,param:val-16:vib0
+13,distorted0:note:s6:f16
+13,distorted1:note:s6:f17
+13,distorted0:note:s6:f19
+13,artist:Arch Enemy
+13,clean0:note:s6:f15
+13,artist:Ataris (The)
+13,artist:Bloodhound Gang (The)
+13,artist:Camp Kill Yourself
+13,distorted2:note:s3:f19
+13,artist:Collective Soul
+13,artist:CPM22
+13,artist:Cradle Of Filth
+13,artist:Dark Moor
+13,artist:Delarium
+13,artist:Good Charlotte
+13,artist:guitar player licks and lessons
+13,artist:Haunted (The)
+12,nfx:tremoloPicking:duration480
+12,clean0:note:s1:f22
+12,distorted0:note:s2:f21
+12,"artist:Aloulou, Omar"
+12,artist:Annihilator
+12,param:val0:vib1
+12,bfx:tempo_change:40
+12,clean0:note:s2:f20
+12,"artist:Carcassi, Mateo"
+12,distorted0:note:s3:f23
+12,artist:Die Toten Hosen
+12,artist:Dire Straits
+12,artist:Dying Fetus
+12,artist:Golden Earring
+12,nfx:trill:fret9
+11,param:val-20
+11,param:val-20:vib0
+11,artist:3 Doors Down
+11,artist:870621345
+11,tempo:260
+11,nfx:harmonic:2:pitch6
+11,nfx:harmonic:2:pitch11:octave1
+11,param:val-6
+11,param:val-6:vib0
+11,param:duration32:dead0:beat0:transition3
+11,"artist:Adams, Bryan"
+11,distorted1:note:s6:f14
+11,distorted0:note:s5:f20
+11,distorted1:note:s6:f15
+11,tempo:280
+11,artist:Anti-Flag
+11,artist:B'Z
+11,"artist:Becker, Jason"
+11,artist:Behemoth
+11,artist:Beyond
+11,distorted1:note:s6:f20
+11,bfx:tempo_change:230
+11,artist:Creedence Clearwater Revival
+11,artist:Dami-n ArderiPS
+11,clean1:note:s2:f16
+11,"artist:Marley, Bob"
+10,distorted0:note:s4:f20
+10,param:dur11
+10,distorted2:note:s1:f22
+10,distorted1:note:s6:f13
+10,clean0:note:s6:f14
+10,clean1:note:s5:f15
+10,clean1:note:s1:f14
+10,nfx:harmonic:2:pitch3
+10,distorted0:note:s5:f23
+10,distorted0:note:s5:f18
+10,artist:Asian Kung Fu Generation
+10,artist:Blind Blake
+10,artist:Boehse Onkelz
+10,nfx:harmonic:2:pitch5:octave1
+10,"artist:Borner, Michael"
+10,clean0:note:s2:f21
+10,artist:Box Car Racer
+10,distorted1:note:s6:f16
+10,distorted1:note:s6:f18
+10,distorted1:note:s6:f19
+10,distorted0:note:s2:f24
+10,param:duration128:dead1:beat0:transition3
+10,artist:Dead Kennedys
+10,artist:Dropout's Theorem
+10,artist:Eiffel
+10,"artist:Emmanuel, Tommy"
+10,artist:Exhornal
+10,artist:Exodus
+10,artist:Faith No More
+9,nfx:harmonic:2:pitch10
+9,nfx:harmonic:2:pitch7:octave2
+9,artist:Alice Cooper
+9,artist:Alisa
+9,artist:Anthrax
+9,bfx:tempo_change:210
+9,distorted0:note:s6:f23
+9,distorted0:note:s6:f22
+9,distorted0:note:s6:f20
+9,tempo:300
+9,artist:Ben Harper
+9,artist:Biohazard
+9,artist:Blaze
+9,artist:Bumblefoot
+9,param:duration64:dead1
+9,param:duration64:dead1:beat0
+9,param:duration64:dead1:beat0:transition1
+9,"artist:Burnz, Bernard Gervais"
+9,artist:Bush
+9,artist:Christmas
+9,param:val4:vib1
+9,"artist:Creber, Fabian"
+9,artist:Creed
+9,artist:Dark Noon 25
+9,artist:Dark Tranquillity
+9,artist:De Palmas
+9,artist:Duman
+9,artist:Dzem
+9,artist:Eppu Normaali
+9,artist:Extremoduro
+9,"artist:Ferdinand, Franz"
+9,artist:Fleetwood Mac
+9,"artist:Gainsbourg, Serge"
+9,artist:Heavy Competition 7
+8,distorted2:note:s6:f10
+8,nfx:grace:fret15
+8,artist:Altaria
+8,artist:Alternative Competition 5
+8,param:val-10
+8,param:val-10:vib0
+8,distorted0:note:s5:f22
+8,distorted0:note:s6:f21
+8,bfx:tempo_change:20
+8,artist:Bad Logic
+8,tempo:270
+8,artist:Big Bill Broonzy
+8,artist:Bolt Thrower
+8,"artist:Bonfa, Luis"
+8,clean0:note:s3:f21
+8,artist:Cinderella
+8,artist:Clash (The)
+8,artist:Competition 2
+8,artist:Competition 3
+8,artist:Competition 4
+8,artist:Cool Exercise
+8,distorted0:note:s2:f23
+8,artist:Dark Hymners
+8,artist:Deftones
+8,artist:Eminem
+8,artist:Europe
+8,artist:Focus
+8,artist:Frozen Autumn Trees
+8,artist:Fugazi
+8,clean1:note:s4:f19
+8,clean1:note:s3:f18
+7,artist:6 Voltios
+7,distorted2:note:s2:f4
+7,nfx:harmonic:2:pitch11:octave2
+7,param:val10
+7,param:val10:vib0
+7,artist:Alpha Current
+7,artist:Anouk
+7,distorted0:note:s5:f21
+7,"artist:Antonio Carlos, Jobim"
+7,artist:Arclite
+7,artist:Audioslave
+7,"artist:Beck, Jeff"
+7,clean0:note:s4:f21
+7,"artist:Berry, Chuck"
+7,"artist:Beznosow, Dmitriy"
+7,"artist:Bigo, Bernard"
+7,clean0:note:s6:f19
+7,artist:Caifanes
+7,"artist:Capital Inicial, Regis Luis"
+7,artist:Carpathian Forest
+7,distorted2:note:s5:f13
+7,artist:Cream
+7,wait:68
+7,distorted2:note:s3:f18
+7,artist:Dark Funeral
+7,artist:Darkness (The)
+7,artist:Dashboard Confessional
+7,artist:Depeche Mode
+7,artist:Deportivo
+7,artist:Dir en grey
+7,artist:Dokken
+7,"artist:Ellington, Duke"
+7,artist:Face to Face
+7,"artist:Falk, Daniel"
+7,"artist:Felissou, JR"
+7,artist:Fxskinzy
+7,artist:Good Riddance
+7,artist:Gorgoroth
+7,artist:Hellacopters (The)
+7,"artist:Lavigne, Avril"
+7,"artist:Rudi Pell, Axel"
+7,nfx:harmonic:2:pitch3:octave2
+6,artist:AALA
+6,nfx:harmonic:2:pitch6:octave1
+6,distorted2:note:s4:f17
+6,distorted2:note:s6:f9
+6,artist:After Forever
+6,artist:Alternative competition
+6,artist:Alternative Competition 6
+6,bfx:tempo_change:250
+6,nfx:harmonic:2:pitch1
+6,artist:AqME
+6,artist:Ash
+6,artist:Avantasia
+6,tempo:40
+6,artist:Bdee
+6,clean1:note:s4:f15
+6,artist:Black Crowes (The)
+6,"artist:Black, Frank"
+6,artist:Blind Boy Fuller
+6,artist:Bloody Ketchup
+6,"artist:Bowie, David"
+6,"artist:Buckley, Jeff"
+6,artist:Budka Suflera
+6,artist:B_hse Onkelz
+6,artist:Cake
+6,"artist:Carulli, Ferdinando"
+6,artist:Cat Stevens
+6,artist:Classical Competition 2
+6,artist:Coheed And Cambria
+6,artist:Competition
+6,"artist:Cromok, The"
+6,"artist:Crosby, Stills, Nash & Young"
+6,artist:Cryptopsy
+6,artist:Danko Jones
+6,artist:Danzig
+6,artist:Dirty Looks
+6,artist:Eagles (The)
+6,artist:Engenheiros Do Hawaii
+6,artist:Ensiferum
+6,artist:Eterna
+6,distorted0:note:s3:f22
+6,distorted1:note:s1:f24
+6,"artist:Fersen, Thomas"
+6,artist:Fuel
+6,"artist:genevois, eric"
+6,"artist:Giuliani, Mauro"
+6,artist:Goldfinger
+6,artist:Heaven And Hell
+6,artist:Heavy Competition 11
+6,artist:Heavy Competition 9
+6,artist:Heavy Exercises
+6,artist:Hecadoth
+5,nfx:harmonic:2:pitch10:octave1
+5,artist:69ers (The)
 5,"artist:704 exercises for guitar, 1-96"
+5,nfx:harmonic:2:pitch6:octave2
+5,nfx:grace:fret13
+5,tempo:290
+5,"artist:Allwright, Graeme"
+5,clean1:note:s1:f13
+5,artist:Alternative Competition 3
+5,"artist:Annegarn, Dick"
+5,artist:Anon
+5,"artist:Arlen, Harold"
+5,artist:At Vance
+5,artist:B.B. King
+5,artist:Beethoven
+5,"artist:Benson, George"
+5,nfx:trill:fret4
+5,artist:Bi-2
+5,artist:Black Aliances Of Death
+5,artist:Blind Melon
+5,artist:Blues Licks
+5,artist:Blues Saraceno
+5,artist:Body Count
+5,"artist:Branch, Michelle"
+5,artist:Buc Tuong (The)
+5,artist:Buckethead
+5,artist:Bursthead (The)
+5,"artist:Casciotta, Vincent"
+5,"artist:Cash, Johnny"
+5,"artist:Cassidy, Eva"
+5,artist:Chaif
+5,"artist:Chapman, Tracy"
+5,artist:Chizh & Co
+5,"artist:Chopin, Frederic"
+5,wait:40
+5,"artist:Collins, Phil"
+5,artist:Competition 5
+5,artist:Core
+5,artist:Corrs (The)
+5,distorted0:note:s4:f23
+5,artist:Crionics
+5,artist:Cromatismo E Velocidade
+5,artist:Curse
+5,artist:Daft Punk
+5,artist:Dandy Warhols
+5,artist:DaNi
+5,artist:Dark Diamond
+5,artist:Dead Fish
+5,artist:Decapitated
+5,artist:Demons & Wizards
+5,artist:Devil Eyes
+5,artist:Die Apokalyptischen Reiter
+5,artist:Division Minuscula
+5,artist:Do As Infinity
+5,artist:Dolly
+5,artist:Dos Minutos
+5,artist:Dredg
+5,artist:Eels
+5,artist:Evanescence
+5,artist:Falconer
+5,artist:Fall Out Boy
+5,param:val7
+5,param:val7:vib0
+5,artist:Final Fantasy
+5,artist:Flash Of Light
+5,"artist:fobia por la leche, fxll"
+5,artist:Folsky
+5,artist:Forgotten Tales
+5,artist:Free
+5,artist:Genesis
+5,artist:Great White
+5,artist:Grinspoon
+5,artist:Guilty Gear X
+5,artist:Halford
+5,artist:Harcam
+5,artist:Heavy Competition 12
+5,artist:Heavy Competition 6
 4,artist:1 God
-4,clean0:note:s6:f6
-4,bfx:stroke:2:4
-4,distorted0:note:s6:f4
-4,distorted0:note:s5:f3
-4,distorted0:note:s6:f1
-4,distorted0:note:s3:f3
-4,distorted0:note:s5:f1
-4,distorted1:note:s6:f8
-4,distorted1:note:s5:f6
-3,distorted0:note:s4:f6
-3,distorted0:note:s5:f6
+4,artist:20-70
+4,artist:88 Fingers Louie
+4,"artist:A, Dominique"
+4,distorted2:note:s4:f19
+4,"artist:Adams, Ryan"
+4,artist:Admatha
+4,artist:Adso
+4,artist:Advanced Technique Exercises
+4,"artist:Aguado, Dionso"
+4,"artist:Aikawa, Nanase"
+4,artist:Algorhythm
+4,artist:Allman Brothers Band (The)
+4,clean1:note:s5:f11
+4,distorted2:note:s5:f15
+4,artist:Amorphis
+4,artist:Anco
+4,artist:Anonim
+4,artist:Anonymous
+4,artist:Apulanta
+4,artist:Arakain
+4,artist:Armitedge
+4,artist:Art Of Yngwie Malmsteen (The)
+4,artist:At The Drive-In
+4,artist:At The Gates
+4,artist:Atherakia
+4,artist:Atreyu
+4,artist:Attaque 77
+4,artist:Atude 72
+4,nfx:harmonic:2:pitch10:octave2
+4,param:duration60
+4,artist:Backyard Babies
+4,"artist:Baez, Joan"
+4,"artist:Balasevic, Djordje"
+4,artist:Barathrum
+4,artist:Barricada
+4,artist:Beach Boys (The)
+4,artist:Beatsteaks
+4,artist:Ber Lin
+4,"artist:Bettencourt, Nuno"
+4,artist:Bewitched
+4,artist:Big Cyc
+4,distorted0:note:s6:f24
+4,artist:Black Dahlia Murder (The)
+4,artist:Blackberries.com (The)
+4,clean1:note:s3:f13
+4,clean1:note:s6:f12
+4,distorted0:note:s5:f24
+4,artist:Bloodbath
+4,bfx:tempo_change:300
+4,clean1:note:s2:f14
+4,artist:Boston
+4,artist:Brand New
+4,"artist:Brooks, Garth"
+4,artist:Bufones (Los)
+4,artist:Butterfingers
+4,artist:Caramelos De Cianuro
+4,"artist:Cardigans, The"
+4,artist:Carpediem
+4,artist:Casualties (The)
+4,artist:Catch 22
+4,artist:Celtica
+4,artist:Classical Competition
+4,artist:Classical Competition 3
+4,artist:Clement Peerens Explosition (The)
+4,"artist:Clerc, Julien"
+4,"artist:Cohen, Leonard"
+4,"artist:Coil, Lacuna"
+4,artist:Cold
+4,artist:Confused
+4,artist:Corneille
+4,artist:Coroner
+4,"artist:Cotten, Elizabeth"
+4,artist:Counting Crows
+4,artist:Couscous
+4,artist:Cramberries
+4,artist:Crazy Town
+4,"artist:Crow, Sheryl"
+4,artist:D Order
+4,param:val2:vib1
+4,artist:DDT
+4,"artist:De Palo, Jarabe"
+4,"artist:Delgadillo, Fernando"
+4,artist:Demon n'Angel
+4,"artist:Denver, John"
+4,artist:Detonautas
+4,artist:DF Forum Members
+4,artist:Dimension Zero
+4,"artist:Dion, Celine"
+4,artist:Dionysos
+4,artist:Dismember
+4,artist:Dizzy Mizz Lizzy
+4,artist:Djeena Circus
+4,artist:Doro Pesch
+4,artist:Dot De Project
+4,artist:Dr Sin
+4,bfx:tempo_change:280
+4,artist:Eclipse
+4,artist:Elastica
+4,artist:Electric Six
+4,artist:Electric Socks (The)
+4,artist:Exploited (The)
+4,artist:Exylius
+4,artist:F5
+4,artist:Faith And The Muse
+4,artist:Faster Pussycat
+4,artist:Fear Factory
+4,artist:Final Fantasy 7
+4,artist:Fobia
+4,artist:Foster & Allen
+4,artist:Frog
+4,artist:Frozen Flame
+4,artist:Fubu
+4,nfx:harmonic:2:pitch5:octave2
+4,artist:Gipsy Kings
+4,artist:Godsmack
+4,artist:Guano Apes
+4,artist:Guitar Classique
+4,artist:Guitar Freaks
+4,artist:H2O
+4,artist:Heavy Competition 8
+4,nfx:trill:fret10
+4,nfx:trill:fret12
+4,artist:Hemzemin
+4,artist:Unknown
 3,artist:1Kempfi1
-2,nfx:grace
-2,nfx:grace:fret3
-2,param
-2,param:duration128
-2,param:duration128:dead0
-2,param:duration128:dead0:beat0
-2,param:duration128:dead0:beat0:transition3
-2,clean0:note:s4:f8
-2,tempo:70
-2,clean0:note:s6:f9
-2,tempo:130
+3,artist:38 Special
+3,artist:A
+3,nfx:harmonic:2:pitch9:octave2
+3,artist:Acid Drinkers
+3,artist:Adema
+3,artist:Advisory
+3,distorted0:note:s1:f23
+3,artist:Akela
+3,artist:Alan Jackson
+3,artist:Alan Parsons Project
+3,artist:Alkehol
+3,artist:Alo-A
+3,artist:Alphaville
+3,artist:Alternative Competition 2
+3,artist:Alvin Lee & Ten Years After
+3,artist:Analogs (The)
+3,artist:AndrewA
+3,clean0:note:s5:f20
+3,artist:Angeles Del Infierno
+3,artist:Angelic Baby
+3,artist:Angoche
+3,nfx:harmonic:2:pitch3:octave1
+3,nfx:harmonic:2:pitch1:octave1
+3,nfx:trill:fret0
+3,param:val-14
+3,param:val-14:vib0
+3,artist:anonyme
+3,artist:Antabus (The)
+3,artist:Aphorism
+3,artist:Armed Raid
+3,artist:Atuesta
+3,"artist:Aubert, Jean-Louis"
+3,artist:Avalanch
+3,artist:Avenged Sevenfold
+3,artist:Axel News
+3,artist:Axerthus
+3,artist:Babar
+3,artist:Bass Exercises
+3,artist:Beastie Boys
+3,artist:Beck
+3,artist:Bee Gees
+3,bfx:tempo_change:30
+3,nfx:harmonic:2:pitch1:octave2
+3,"artist:Bercher, Jean-Daniel"
+3,"artist:Berger, Michel"
+3,artist:Bersuit Vergarabat (La)
+3,artist:Betteraves (Les)
+3,artist:Bihse Onkelz
+3,artist:Bill (The)
+3,artist:Black Flower
+3,artist:Black Horror
+3,"artist:Black, Mary"
+3,artist:Blackmore's Night
+3,distorted0:note:s4:f24
+3,artist:Blue Circus
+3,artist:Blues Acoustic Guitar
+3,artist:Blues Brothers (The)
+3,artist:Blues Solo
+3,distorted1:note:s6:f24
+3,artist:Bombbis
+3,clean1:note:s1:f15
+3,"artist:Bonham, Tracy"
+3,clean0:note:s5:f21
+3,distorted1:note:s5:f18
+3,artist:Bread
+3,artist:Buckcherry
+3,artist:Bulletz and Gunz
+3,"artist:Bunbury, Enrique"
+3,"artist:Burnette, Johnny"
+3,"artist:Cabourg, Julien"
+3,artist:Cacophony
+3,artist:Caliban
+3,artist:Calogero
+3,downtune:-6
+3,artist:Capdown
+3,artist:Castlevania
+3,"artist:Cats, Stray"
+3,artist:Chain Of Ponds
+3,artist:Chameleon
+3,artist:Cheap Trick
+3,artist:Chitan
+3,artist:Chord forms & cycles
+3,"artist:Chow, Jay"
+3,artist:Chrono Cross
+3,wait:384
+3,nfx:trill:fret1
+3,artist:Cold Meat
+3,"artist:Cong Son, Trinh"
+3,distorted2:note:s4:f13
+3,"artist:Cray, Robert"
+3,artist:Crazy Competition
+3,artist:Crown (The)
+3,artist:Cruachan
+3,artist:Crystal Ball
+3,artist:Cuca (La)
+3,artist:Cui jian
+3,artist:Cult (The)
+3,artist:Cutting Edge
+3,"artist:Dale, Dick"
+3,clean0:note:s5:f18
+3,artist:Darksideofthewall
+3,"artist:Dassin, Joe"
+3,"artist:De Lucia, Paco"
+3,artist:Derozer
+3,artist:Destruction
+3,artist:Dido
+3,artist:Disco Penguin
+3,artist:Distillers (The)
+3,artist:Disturbed
+3,artist:Divididos
+3,artist:Divlje Jagode
+3,bfx:tremolo_bar:type8
+3,artist:Doobie Brothers (The)
+3,artist:DOOM II
+3,"artist:Dowland, John"
+3,artist:Down
+3,"artist:Doyle Dykes, Doyle"
+3,artist:Dragon Ash
+3,artist:Dragon Ball Z
+3,artist:DrGonzo
+3,artist:Dropkick Murphys
+3,artist:Dry Kill Logic
+3,artist:Due Le Quartz
+3,"artist:Duteil, Yves"
+3,"artist:Eighties Matchbox B-Line Disaster, the"
+3,artist:Elavigor
+3,artist:Elio E Le Storie Tese
+3,artist:Elmer Food Beat
+3,artist:Embrace
+3,artist:Emendiess
+3,artist:Empyrium
+3,artist:Epidemia
+3,artist:Eternal Tears Of Sorrow
+3,artist:Everlast
+3,artist:Eyesburn
+3,artist:Fade
+3,"artist:Fahey, John"
+3,artist:Falco
+3,artist:Faulty (The)
+3,artist:Feeder
+3,artist:Fenix TX
+3,"artist:Fenix TX, All my Fault Solo"
+3,"artist:Ferrer, Nino"
+3,artist:Filip Floyd
+3,artist:Finger And Picking Exercise
+3,artist:Finger Eleven
+3,artist:Finntroll
+3,artist:Fire Prism
+3,artist:Firewind
+3,artist:Flema
+3,artist:Flying dust
+3,"artist:Fogerty, John"
+3,artist:Forgive-Me-Not
+3,clean1:note:s2:f20
+3,"artist:Fugain, Michel"
+3,artist:Furisco's (The)
+3,"artist:Gambale, Frank"
+3,artist:Garbage
+3,artist:Gentlemens (Les)
+3,artist:Gladiators (The)
+3,artist:Goo Goo Dolls
+3,artist:Gorillaz
+3,artist:Gotthard
+3,"artist:Graham, Davey"
+3,"artist:Grand, Philippe"
+3,"artist:Gregg, Thy"
+3,artist:Guardia
+3,artist:Guilty Gear X  XX  Isuka
+3,artist:Guitar Class Lia%0es
+3,artist:Guttermouth
+3,artist:Hacride
+3,"artist:Harisson, George"
+3,"artist:Harvey, PJ"
+3,artist:Martyr_7321
 2,"artist:1974 AD, Pahilo Junema"
-1,tempo:140
+2,bfx:tremolo_bar:type10
+2,artist:3 Inches Of Blood
+2,artist:301 Izquierda
+2,artist:31 Minutos
+2,artist:4 Non Blondes
+2,artist:4D Sports Driving
+2,param:val11
+2,param:val11:vib0
+2,param:val9
+2,param:val9:vib0
+2,artist:5nizza
+2,artist:A Perfect Circle
+2,artist:A.C.A.B
+2,artist:Abba
+2,artist:Abhinanda
+2,artist:abraxas
+2,artist:Absurd
+2,nfx:harmonic:2:pitch8
+2,nfx:harmonic:2:pitch8:octave1
+2,artist:Acidstain
+2,artist:Acoustic Alchemy
+2,artist:Acoustic Vakhanaly
+2,artist:Adagio
+2,clean0:note:s1:f21
+2,artist:Afterhours
+2,artist:Against Me!
+2,artist:Air
+2,artist:Ajattara
+2,artist:Akurat
+2,artist:Alexisonfire
+2,artist:Alibabki
+2,artist:Alien Ant Farm
+2,artist:Alienz (Da)
+2,"artist:Aliustaoglu, Cuneyt"
+2,artist:All System Go !
+2,artist:All That Remains
+2,artist:All-American Rejects
+2,artist:Allegro
+2,artist:Allister
+2,artist:Alpha
+2,artist:Alternative Competition 4
+2,artist:Alternative Competition 7
+2,artist:Always-Peaceful
+2,artist:Amalgamation
+2,artist:America
+2,artist:Anakreenskyrider
+2,artist:Ancient Rites
+2,artist:andrea discalzi
+2,artist:Ange
+2,artist:Anime
+2,nfx:trill:fret3
+2,"artist:Anonimo, Romance"
+2,artist:Another Hero
+2,artist:Antoinenadim
+2,artist:Aquabats (The)
+2,"artist:Arab, Jorge"
+2,artist:Arcane Sanctuary
+2,"artist:Ardanuy, Eduardo"
+2,artist:Armia
+2,artist:Armlock
+2,"artist:Armstrong, Louis"
+2,"artist:Armstrong, Luis"
+2,"artist:Astor, Willy"
+2,artist:ATHENA
+2,artist:Autour De Lucie
+2,artist:Axe (The)
+2,"artist:Axel Rudi Pell, Axel"
+2,distorted2:note:s5:f16
+2,artist:Azra
+2,bfx:tremolo_bar:type11
+2,param:val16
+2,param:val16:vib0
+2,artist:Backstreet Boys
+2,artist:Bad Company
+2,tempo:380
+2,"artist:Badiuk, Dave"
+2,"artist:Ballet, Spandau"
+2,artist:Band (The)
+2,artist:BAP
+2,artist:Bare Egil Band
+2,artist:bCnabar
+2,artist:Beat Crusaders
+2,clean1:note:s4:f17
+2,artist:Belvedere
+2,"artist:Ben Fredj, Khalil"
+2,"artist:Benetar, Pat"
+2,artist:Bernd Strohm
+2,artist:Betontod
+2,artist:Big Bottom Boy
+2,artist:BigWig
+2,artist:Bikini
+2,artist:Billy Idol
+2,artist:Binam
+2,artist:BIS
+2,artist:Black Ball Line
+2,artist:Black Eyed Peas
+2,artist:Black Flag
+2,artist:Black Keys (The)
+2,artist:Black Moria
+2,artist:Black Pearl
+2,artist:Black Sahara
+2,artist:Black Sun
+2,artist:Blackfield
+2,nfx:trill:fret2
+2,artist:Blankass
+2,wait:3120
+2,artist:Blind Pigs
+2,artist:Bloodhound Gang
+2,artist:Blue Oyster Cult
+2,artist:Bobobo
+2,"artist:Boesser-Ferrari, Claus"
+2,artist:Boikot
+2,clean1:note:s3:f15
+2,"artist:Booker, T"
+2,artist:Booxras
+2,artist:Boreas
+2,artist:Boring
+2,artist:Boudbad X
+2,artist:Bouncing Souls (The)
+2,artist:Brand New Sin
+2,artist:Brave warriors who will kill Satan himself (The)
+2,artist:Bread Things
+2,artist:Breaking Benjamin
+2,"artist:Brel, Jacques"
+2,"artist:Brichta, Ales"
+2,artist:Bronx
+2,artist:Brou
+2,"artist:Brouwer, Leo"
+2,"artist:Brower, Leo"
+2,"artist:Bruni, Carla"
+2,artist:Buckingham
+2,artist:Buffy
+2,wait:961
+2,artist:Bunchofuckingoofs
+2,artist:Busted
+2,artist:Buzzcocks (The)
+2,"artist:Byrd, Charlie"
+2,artist:Byrds (The)
+2,artist:Caf_Tacvba
+2,artist:Calexico
+2,artist:Candlebox
+2,artist:Candlemass
+2,artist:Cantrip
+2,artist:Cargo
+2,"artist:Carmichael, Hoagy"
+2,"artist:Casanova, Jose Miguel"
+2,"artist:Castelnuovo Tedesco, Mario"
+2,"artist:Celentano, Adriano"
+2,artist:Celestia
+2,artist:Celtic Frost
+2,"artist:Cetin, Yavuz"
+2,artist:Charlatans
+2,artist:Chicago
+2,artist:Chinese
+2,artist:Chlopcy z placu broni
+2,artist:Chokebore
+2,artist:Chords
+2,"artist:Christ, Rotting"
+2,"artist:Christian, Charlie"
+2,artist:Christofer Axelsson And The Genocide Riders
+2,artist:Cinerama
+2,wait:548
+2,wait:52
+2,"artist:Clarke, Gilby"
+2,"artist:Clayderman, Richard"
+2,"artist:ClCment, Coralie"
+2,artist:Cockney Rejects
+2,artist:Cold Cast
+2,"artist:Collins, Edwyn"
+2,distorted2:note:s2:f22
+2,artist:Conception
+2,artist:Control Denied
+2,artist:Corrosion Of Conformity
+2,artist:Country Licks
+2,"artist:Coxon, Graham"
+2,"artist:Croce, Jim"
+2,"artist:cromok, the cromok"
+2,"artist:Cropper, John"
+2,artist:Crossfade
+2,artist:Crowded House
+2,artist:Crvena Jabuka
+2,artist:Cryhavoc
+2,artist:Cryptic Myth
+2,artist:Cuban
+2,artist:Cumbawamba
+2,artist:Cypress Hill
+2,"artist:D'Agostino, Peppino"
+2,artist:D3n1s
+2,"artist:Dalle Ave, Michel"
+2,artist:Daltarak & Dnz
+2,"artist:Danilo, Andrei"
+2,artist:Darcane
+2,artist:Dark Tranquility
+2,artist:Darkane
+2,artist:Darkside Of The Pussy
+2,artist:Darksign
+2,artist:Datsuns (The)
+2,artist:DBZ
+2,artist:De mono
+2,"artist:De Roubaix, Franaois"
+2,artist:Death Angel
+2,artist:Death Metal Competition
+2,wait:2400
+2,distorted1:note:s6:f23
+2,distorted1:note:s6:f22
+2,distorted1:note:s6:f21
+2,"artist:Descendents, The"
+2,artist:Devo
+2,artist:Dew-Scented
+2,artist:Diamond Head
+2,artist:Die Arzte
+2,"artist:Dilermando, Reis"
+2,"artist:Dillon, James"
+2,artist:Dirty Magic
+2,artist:Discharge
+2,artist:Dispatch
+2,artist:Divine Comedy (The)
+2,artist:Divinity Destroyed
+2,artist:Dizaster
+2,artist:Doctor Caspers Rabbit Show
+2,artist:Doctor Feelgood
+2,artist:Domine
+2,artist:Donnas (The)
+2,artist:Donovan
+2,"artist:Dotan, C"
+2,artist:Doudak
+2,artist:Dover
+2,artist:Dragonflames
+2,"artist:Drake, Nick"
+2,artist:Dream Evil
+2,artist:Dreamworld
+2,artist:DTS CREW
+2,artist:Duran Duran
+2,"artist:Dutronc, Jacques"
+2,"artist:Dyens, Roland"
+2,artist:Early November (The)
+2,artist:Echo And The Bunnymen
+2,artist:Echobrain
+2,"artist:Edelman, Randy"
+2,"artist:Eicher, Stephan"
+2,artist:Einherjer
+2,artist:El Canto Del Loco
+2,artist:Electric Light Orchestra
+2,artist:Elevator (The)
+2,artist:Elton John
+2,artist:Enigma
+2,artist:Entwine
+2,artist:Epicus
+2,"artist:Eresy, Inquizitione"
+2,artist:Erguin
+2,artist:Escape From Life
+2,artist:Estatic Fear
+2,artist:Eucalyptica
+2,artist:Everclear
+2,"artist:Exercdegcios de Cromatismo, Cromatismo"
+2,artist:Exorcista
+2,artist:Exska
+2,artist:F-Zero-X
+2,"artist:Farmer, Mylane"
+2,artist:Fates Warning
+2,"artist:Faure, Gabriel"
+2,param:val22
+2,param:val22:vib0
+2,"artist:Ferrat, Jean"
+2,artist:Figment (The)
+2,"artist:Filipov, Helder"
+2,artist:Finch
+2,artist:Finger and Picking exercise
+2,artist:First Impression
+2,artist:Flaming Lips (The)
+2,artist:Flaming tits
+2,artist:Flinstones (The)
+2,artist:For My Pain
+2,"artist:Ford, Robben"
+2,artist:Foreigner
+2,artist:Fortress Of Solitude
+2,artist:France
+2,"artist:Frederiksen, Lars"
+2,"artist:Friedman, Marty"
+2,clean1:note:s1:f18
+2,clean1:note:s2:f22
+2,artist:Fun Lovin Criminals
+2,artist:Funk Licks
+2,artist:Funny Corpse
+2,artist:Fury In The Slaughterhouse
+2,"artist:Gardoni, Andrea"
+2,artist:Gates Of Ishtar
+2,artist:Gathering (The)
+2,artist:Gato Com Lebre
+2,"artist:Gaye, Marvin"
+2,"artist:Gefen, Aviv"
+2,distorted1:note:s5:f22
+2,artist:George Thorogood
+2,"artist:Ghomeyshi, Siavash"
+2,artist:Gibonni
+2,"artist:Gieco, Leon"
+2,artist:Glitterati (The)
+2,artist:Glittertind
+2,artist:Gluters (The)
+2,artist:GO!GO!7188
+2,artist:Gob
+2,artist:Goblini
+2,artist:Gokhlayeh
+2,clean1:note:s4:f18
+2,artist:Gomez
+2,artist:Gorstomok
+2,artist:Grand Funk Railroad
+2,artist:Grateful Dead
+2,artist:Graveland
+2,artist:Graveworm
+2,artist:Greed
+2,"artist:Green, Adam"
+2,"artist:Grivory, Florent"
+2,artist:Groovy Aardvark
+2,"artist:Guccini, Francesco"
+2,artist:Guerrero Negro
+2,artist:Guitar Player Licks And Lessons
+2,"artist:Guthrie, Arlo"
+2,"artist:Hackett, Steve"
+2,"artist:Haggard, Merle"
+2,artist:Hamlet
+2,"artist:Handel, George Friedrick"
+2,artist:Happysad
+2,artist:Hardcore
+2,artist:Harem Scarem
+2,artist:Harry Krishna
+2,artist:Hate Theory
+2,artist:Hatebreed
+2,"artist:Haumont, Michel"
+2,artist:Haydn
+2,artist:Heavenly
+2,artist:Heavy Competition 10
+2,artist:Heitor Villa Lobos
+2,artist:Hell's Hilarious Happy Hour
+2,artist:Hellecasters (The)
+2,"artist:Henderson, Scott"
+2,"artist:Levent, Haluk"
+2,distorted2:note:s4:f18
+2,artist:Warcraft
 1,artist:12 Stones
-1,downtune:-1
 1,artist:1349
-1,tempo:210
-1,distorted0:note:s6:f2
-1,tempo:110
 1,"artist:1974 ad, pahilo junema"
-1,tempo:150
-1,tempo:170
-1,tempo:100
+1,artist:23 P.H.
+1,artist:28 Days
+1,artist:4 skins (The)
+1,artist:50 Cent
+1,artist:500 And China Blue
+1,artist:59 Times The Pain
+1,artist:7b
+1,artist:8stops7
+1,artist:A-ha
+1,artist:A-YUE & FreeNight
+1,artist:AA Le Composer
+1,artist:ABBA
+1,artist:Abba Christis
+1,artist:Abdelaziz Eleroui
+1,"artist:Abelha, Kid"
+1,artist:Abhor
+1,artist:Abigor
+1,artist:Ablablas (Les)
+1,artist:Aborted
+1,artist:Ace Frehley
+1,artist:Ace Of Base
+1,artist:Acheron's Idol
+1,artist:Acta
+1,"artist:Adams, Brian"
+1,artist:Adamus
+1,artist:Aegirson
+1,artist:afsakat hashmal
+1,artist:Age Of Empires
+1,artist:Agony Scene (The)
+1,artist:Aikaryu
+1,artist:Aima
+1,artist:Airbag
+1,"artist:Akkerman, Jan"
+1,artist:Al Green
+1,artist:Alastis
+1,artist:Alcatrazz
+1,artist:Ale & Gabbo
+1,artist:Alexoid
+1,artist:Alice
+1,artist:AlizCe
+1,artist:All
+1,artist:Allan holdsworth
+1,"artist:Almeida, Laurendo"
+1,artist:Alopex
+1,artist:Altar of Graves
+1,"artist:Altera, Amir Kudic"
+1,artist:Alteris
+1,artist:Alvin Es A Mokusok
+1,artist:Alvin Es A M_kusok
+1,artist:Amazigh
+1,"artist:Amos, Tori"
+1,artist:Amset
+1,"artist:Amstrong, Luis"
+1,artist:Ana Johnson
+1,artist:Anal Blast
+1,"artist:Analysis, The"
+1,artist:AnarKoPunX
+1,artist:Anatidae
+1,artist:Ancient Warrior
+1,artist:Anderson
+1,"artist:Anderson, Muriel"
+1,"artist:Andress, Tuck"
+1,"artist:Andrew, W.K."
+1,artist:Androids (The)
+1,artist:Anekdoten
+1,artist:Angel Dust
+1,artist:Angel Mutilation
+1,artist:Angel Witch
+1,artist:ANGELES DEL INFIERNO
+1,artist:Angstilapset
+1,artist:Animals
+1,wait:139
+1,nfx:grace:fret20
+1,wait:1921
+1,artist:Aninimo
+1,"artist:anonymous, The minor of the morn"
+1,artist:Anonymus
+1,artist:Anopheles
+1,artist:Anorexia
+1,artist:Antares
+1,artist:Anti Crap
+1,artist:Anti-Silence
+1,artist:Antim Grahan
+1,artist:Antipig
+1,artist:Antiskeptic
+1,artist:Antonio Flores
+1,artist:Aphrodites Child
+1,artist:Apocalypse Orchestra Band be Maxime Peltier (The)
+1,artist:Apocalyptica
+1,artist:Appleseed Cast
+1,artist:Aquarium
+1,artist:Arbol
+1,artist:Archive
+1,artist:Arctic Monkeys
+1,artist:Area
+1,"artist:Arjona, Ricardo"
+1,artist:Arkanoid
+1,"artist:Armija, Krasnaja"
+1,artist:Arsenik
+1,bfx:tempo_change:270
+1,artist:Artful Dodger (The)
+1,artist:Artificial Kings
+1,artist:As I Lay Dying
+1,artist:ASA
+1,artist:Ascelia
+1,"artist:Ashcroft, Richard"
+1,artist:Aspen
+1,artist:Assault
+1,artist:Asta Kask
+1,artist:Aston Villa
+1,"artist:Astorg, Patrick"
+1,artist:Astral Gates
+1,artist:Atheist
+1,wait:161
+1,"artist:Atlas, Natacha"
+1,artist:attaque 77
+1,artist:Aura
+1,artist:Australian Crawl
+1,artist:Axix
+1,artist:Aymeric
+1,artist:Ayreon
+1,artist:AZ-DEAN
+1,artist:Azaghal
+1,"artist:Azevedo, Waldir"
+1,artist:Azyrius
+1,"artist:A. McGrath, Andrew"
+1,artist:B.T.M.
+1,artist:Babyface
+1,nfx:trill:fret17
+1,nfx:trill:fret13
+1,distorted0:note:s4:f22
+1,tempo:30
+1,"artist:Bacharach, Burt"
+1,artist:Bachman
+1,artist:Bachman-Turner Overdrive
+1,artist:Bacilos
+1,artist:Backfire
+1,"artist:Badalamenti, Angelo"
+1,artist:Badlands
+1,artist:Badly Drawn Boy
+1,"artist:Bagaskara, Katon"
+1,"artist:Baker, Chet"
+1,"artist:Baker, Duck"
+1,"artist:Baker, Lee"
+1,"artist:Balavoine, Daniel"
+1,artist:Balin's Compositions
+1,artist:Balkanika
+1,"artist:Bambakouris, Markos"
+1,"artist:Banai, Ehud"
+1,artist:Banda A
+1,artist:Banda Bassotti
+1,artist:Bangles (The)
+1,artist:Barbarians (The)
+1,artist:Bare Jr.
+1,artist:Bare Naked Ladies
+1,artist:Barenaked Ladies
+1,"artist:barenberg, russ"
+1,"artist:Barrett, Syd"
+1,"artist:Barrios, Agustin"
+1,"artist:Barroso, Ary"
+1,artist:Bar_n Rojo
+1,artist:Bates (The)
+1,"artist:Battisti, Lucio"
+1,"artist:Bauer, Axel"
+1,artist:Bauhaus
+1,artist:BCnabar
+1,artist:BCrurier Noir
+1,artist:Beatallica
+1,clean1:note:s4:f16
+1,artist:Beatrice
+1,"artist:Beaudoin, Gerry"
+1,wait:2160
+1,artist:Beckkill
+1,"artist:Begotti, Donato"
+1,artist:Beheaded (The)
+1,artist:Behind Crimson Eyes
+1,"artist:Belchior, Alexandre"
+1,artist:Beloved (The)
+1,artist:Benediction
+1,artist:Benihana 360-
+1,"artist:Bergen, Count"
+1,"artist:Berlin, Irving"
+1,"artist:Bernes, Mark"
+1,artist:Berri Txarrak
+1,"artist:Berry, John"
+1,artist:Best Interest
+1,artist:Bethlehem
+1,"artist:Bettens, Sarah"
+1,artist:Better Than Ezra
+1,artist:Between The Buried And Me
+1,artist:Bey Bledes
+1,"artist:Bhattarai, Nabin"
+1,"artist:Bichevskaya, Zhanna"
+1,artist:Big & Rich
+1,artist:Big Country
+1,artist:Big Foot Mama
+1,artist:Big Soul
+1,artist:Billy Taylor
+1,"artist:Bizet, Georges"
+1,artist:Black Alchemy
+1,artist:Black Bomb A
+1,artist:Black Box Recorder
+1,artist:Black Death Warrior
+1,artist:Black Leather
+1,artist:Black Lightning
+1,artist:Black Raven
+1,artist:Black Rebel Motorcycle Club
+1,artist:Black Sun Rise
+1,artist:Blackfoot
+1,"artist:Blake, Norman"
+1,artist:Blazed
+1,artist:Bled (The)
+1,artist:Blenders
+1,artist:Blind Cow (The)
+1,"artist:Blind Lemon, Jefferson"
+1,artist:Blindside
+1,artist:Blindspott
+1,artist:Blink 182- Stay together for the kids
+1,artist:Blitz
+1,artist:Blitzkrieg
+1,artist:Bloef
+1,artist:Blondie
+1,artist:Blood Red Throne
+1,artist:Blood Sausage
+1,artist:Bloodless Secretion
+1,artist:Blue Goblins
+1,artist:blues rythmes
+1,nfx:grace:fret16
+1,artist:Blues Traveller
+1,artist:Blues Trottoir
+1,artist:BnnK (The)
+1,artist:Body Jar
+1,param:val24
+1,param:val24:vib0
+1,param:val18
+1,param:val18:vib0
+1,artist:Bolan Marc
+1,artist:Bon Jovi Runaway (Solo)
+1,"artist:Bookbinder, Roy"
+1,artist:Boreal Symphony
+1,artist:Botafogo
+1,artist:Boudicca
+1,"artist:Boulay, Isabelle"
+1,artist:Bowling For Soup
+1,"artist:Branduardi, Angelo"
+1,artist:Brandy
+1,"artist:Brassens, George"
+1,artist:Braveheart
+1,artist:breakout
+1,artist:Breeders (The)
+1,artist:Brian Jonestown Massacre (The)
+1,artist:Bright Side (The)
+1,artist:Broder Daniel
+1,artist:Brody J-nos
+1,artist:Broken Rule
+1,"artist:Brooks, Meredith"
+1,"artist:Brown, Mike"
+1,"artist:Browne, Jackson"
+1,"artist:Bruant, Aristide"
+1,"artist:Bruel, Patrick"
+1,artist:Brujeria
+1,"artist:Bryan Wickson band, The"
+1,"artist:Buarque, Chico"
+1,artist:Bubblegun
+1,"artist:Buckley, Tim"
+1,artist:Budgie
+1,artist:Built to Spill
+1,artist:Bullet For My Valentine
+1,"artist:Bunkers, Los"
+1,artist:Burning Heads
+1,"artist:Burrell, Kenny"
+1,"artist:Bush, Kate"
+1,artist:But Alive
+1,artist:C Major Scale
+1,artist:C64
+1,artist:Cachorro Grande
+1,artist:Cadaveria
+1,artist:CafC Tacvba
+1,"artist:Cagin, Gurhan"
+1,"artist:Caladbolg, David"
+1,"artist:Calamaro, AndrCs"
+1,artist:Calamine
+1,"artist:Calcanhotto, Adriana"
+1,"artist:Cale, JJ"
+1,artist:Cali
+1,artist:Callejeros
+1,"artist:Camacho, Enrique"
+1,"artist:Cambefort, Jean-Paul"
+1,artist:Cambielli Guardian Marco
+1,artist:CamClCons (Les)
+1,artist:Camden
+1,"artist:Campbell, Glenn"
+1,"artist:Cano, Albert"
+1,"artist:Capi, Alex"
+1,"artist:Carapia, AndrCs"
+1,"artist:Carey, Mariah"
+1,"artist:Carlisle, Belinda"
+1,"artist:Carlton E Chase, Carlton"
+1,"artist:Carlton, Larry"
+1,artist:Carnal Forge
+1,"artist:Carnes, Kim"
+1,artist:Carpark North
+1,artist:Carpe Diem And Szymon Wydra (The)
+1,artist:Carranca
+1,artist:Casanovas (The)
+1,clean0:note:s3:f22
+1,artist:Cat Power
+1,artist:Catamenia
+1,artist:Catharsis
+1,artist:Cattle Decapitation
+1,artist:Cauterize
+1,"artist:Cavaleiros Do Zodiaco, Os"
+1,artist:Cem Karaca
+1,"artist:Cerati, Gustavo"
+1,artist:Cest Pas Sorcier
+1,artist:Chad Kroger and Josey Scott
+1,"artist:Chamfort, Alain"
+1,artist:Chaos
+1,artist:Chaos Opera
+1,"artist:Chapin, Harry"
+1,"artist:Chapman, Matt & Mike"
+1,"artist:Chapman, Michael"
+1,"artist:Charles, Ray"
+1,artist:Charly Garcia
+1,"artist:Chastain, David"
+1,artist:Chateaux
+1,"artist:Chedid, Louis"
+1,"artist:Chernaya Metka, Gluki"
+1,"artist:Cherry, Eagle-Eye"
+1,"artist:Cheung, Jacky"
+1,"artist:Chic, The"
+1,artist:Chico Buarque
+1,artist:Children of Bodom
+1,artist:Children Of Boredom
+1,artist:Chimaira
+1,artist:Chitarra classica
+1,artist:Choking
+1,artist:Choking Victim
+1,artist:Choscos
+1,artist:Christ Agony
+1,"artist:Christiani, Herv,"
+1,"artist:Christiani, HervC"
+1,artist:Christina Aquilera
+1,artist:Chrizum
+1,artist:Chrono Trigger
+1,"artist:Chudzik, Adrian"
+1,artist:Cimmerii
+1,artist:Cirotil-X
+1,artist:Clann Zu
+1,wait:576
+1,"artist:Clarkson, Kelly"
+1,artist:Classic (The)
+1,artist:Claux
+1,artist:Clear (The)
+1,artist:Clit 45
+1,artist:Closterkeller
+1,artist:Clutch
+1,artist:Coal Chamber
+1,artist:Coaltar Of The Deepers
+1,"artist:Cob Web, Nepali"
+1,"artist:Cochran, Eddie"
+1,artist:Cock Sparrer
+1,"artist:Cocker, Joe"
+1,artist:Codigo Rojo
+1,"artist:Coenen, Marcel"
+1,artist:Cold Blood
+1,artist:College Fight Songs
+1,"artist:Coltrane, John"
+1,artist:Coma
+1,artist:Comme Restus
+1,artist:Compagnie Creole (La)
+1,artist:Connells (The)
+1,artist:Conneries Pour Tickets
+1,"artist:Conners, Jon"
+1,artist:Continental Drift
+1,"artist:Cooder, Ry"
+1,artist:Cool Kids Of Death
+1,"artist:Cooley, Rusty"
+1,artist:Cooper Temple Clause (The)
+1,"artist:Cooper, Brach"
+1,artist:Cornershop
+1,artist:Corran Horn
+1,"artist:Corte Final, O"
+1,"artist:Cosma, Vladimir"
+1,"artist:Costello, Elvis"
+1,artist:Cousins
+1,artist:Covenant
+1,artist:Coverares
+1,artist:Coverdale & Page
+1,artist:Cowboy Junkies
+1,artist:Cowboys Fringants
+1,"artist:Cox, Jimmie"
+1,"artist:Crackers, The"
+1,artist:CRASH
+1,artist:Crash Test Dummies (The)
+1,artist:Crass
+1,artist:Creaciones
+1,artist:Crematory
+1,artist:Crime Fighting Monkey
+1,artist:Cristal Eyes
+1,artist:Crocketts (The)
+1,artist:Crusaders
+1,artist:Crying Nut
+1,artist:Cryptic Wintermoon
+1,nfx:harmonic:2:pitch0:octave2
+1,"artist:Cu Ba, Vu Khuc"
+1,artist:Culpables Inocentes
+1,artist:CunnilingAe
+1,artist:Current 93
+1,artist:Currently Unsigned
+1,artist:Cursed Seal
+1,artist:Cursive
+1,artist:Czarno Czarni
+1,artist:D.A.D.
+1,artist:D.E.V.I.L.S.
+1,artist:D.V.D.A.
+1,wait:100
+1,distorted2:note:s1:f24
+1,"artist:Dai, Penny"
+1,artist:Daisybox
+1,artist:Dalevuelta
+1,artist:Damageplan
+1,artist:Damas Gratis
+1,"artist:Danger, Harvey"
+1,artist:Daria
+1,artist:Dariush
+1,artist:Dark Angel
+1,artist:Dark Illusion
+1,"artist:Dark James, James David Velez"
+1,artist:Dark Shift
+1,artist:Dark-Grave
+1,artist:Darkest Hour
+1,artist:Darklord
+1,"artist:Darkrapha, Rapha"
+1,artist:Darky
+1,artist:Darth Flex Fear
+1,"artist:Daumas, Emma"
+1,artist:Dave Dobbyn
+1,artist:Dave Van Ronk
+1,"artist:David, Craig"
+1,"artist:Davis Jr, Sammy"
+1,"artist:Davis, Reverend Gary"
+1,artist:Days in Grief
+1,artist:DBC
+1,artist:DC Talk
+1,artist:De Adentro (Los)
+1,"artist:De Angelis, Guido & Maurizio"
+1,artist:De Mono
+1,"artist:De Ros, Marcos"
+1,artist:De Saloon
+1,tempo:350
+1,artist:Dead Heroes
+1,artist:Dead Souls
+1,artist:Dead To Fall
+1,artist:Death Cab For Cutie
+1,artist:Death In Vegas
+1,artist:Death SS
+1,artist:Deathbruise
+1,artist:Deatheve
+1,artist:Deepain
+1,artist:Default
+1,artist:Defleshed
+1,artist:Degrau OM
+1,artist:Deja Voodoo
+1,"artist:Delim, Phil"
+1,artist:delirium tremens
+1,artist:Delivrance duelling banjos
+1,artist:Delorean
+1,artist:Delux
+1,artist:Dementia
+1,artist:Demo
+1,artist:Demolition 23
+1,artist:Demoniac
+1,artist:Demonic Chipmunk
+1,artist:Depresszio
+1,artist:Derek And The Dominos
+1,wait:172
+1,wait:102
+1,artist:Derinligin Zirvesi
+1,"artist:Derringer, Rick"
+1,artist:Descendants (The)
+1,"artist:Deutschland, Joachim"
+1,artist:Deviates
+1,artist:Dewa
+1,artist:Diablo
+1,artist:Diabolical Masquerade
+1,artist:Dibob
+1,"artist:Dick Face, Hansi Band"
+1,"artist:Diddy, P."
+1,artist:Didula
+1,artist:Die Kassierer
+1,artist:DiegoSolista
+1,"artist:DiFranco, Ani"
+1,artist:Dimension
+1,artist:Dimitri Tiomkin
+1,artist:Dingo
+1,artist:Dio
+1,artist:Dir En Grey
+1,artist:Dir En grey
+1,artist:Disbelief
+1,artist:Disidencia
+1,artist:Disiplin
+1,"artist:Disney, Walt"
+1,artist:Disneyland After Dark
+1,artist:Dixie Chicks
+1,artist:Dixie Dregs
+1,artist:DJ Shadow
+1,artist:Dj-Fx
+1,artist:DjangoSwing
+1,artist:Djavan
+1,artist:DL Inc
+1,"artist:Doblinger, Ludwig"
+1,artist:Doc Louis
+1,artist:Dog Eat Dog
+1,artist:Dogma
+1,artist:Don Huonot
+1,artist:Don Latarski
+1,artist:Donkey Kong Country
+1,artist:Donna Summer
+1,artist:Dope
+1,"artist:Dorham, Kenny"
+1,artist:Doriath
+1,"artist:Doriot, Dan"
+1,artist:Dorn
+1,artist:Dorso
+1,artist:Double U
+1,artist:Doug Wood Band
+1,artist:Doves
+1,artist:Dr Feelgood
+1,nfx:grace:fret17
+1,wait:112
+1,wait:242
+1,"artist:Dragojevic, Oliver"
+1,artist:Dragonball GT
+1,artist:Dragonball Z
+1,artist:Dragonforce
+1,artist:Dragonland
+1,artist:Dragpipe
+1,"artist:Draven, Eric"
+1,artist:Dreadlock Pussy
+1,artist:Dreams Of Eternity
+1,artist:Dritte Wahl
+1,artist:Drivin N Cryin
+1,bfx:tempo_change:260
+1,artist:Drying Out
+1,artist:Dr. Dre
+1,artist:Dr. Sin
+1,artist:Du ar den ende
+1,"artist:Duane, Eddy"
+1,"artist:Dudley, Dave"
+1,artist:Duke Nukem 3D
+1,artist:Dum Dums
+1,"artist:Dumkow, Joerg"
+1,artist:Dunkin Sheik
+1,"artist:Duong, Tung"
+1,artist:Dupa (El)
+1,artist:Dust
+1,"artist:Dvorak, Antonin"
+1,"artist:Dybeck, Richard"
+1,artist:Dylath Leen
+1,artist:Dzukele
+1,artist:Eagles
+1,artist:Eagles Of Death Metal
+1,"artist:Earle, Steve"
+1,artist:EAV
+1,artist:Echos
+1,artist:Editors
+1,"artist:Edwardsen, Nick"
+1,artist:Edyta Bartosiewicz
+1,artist:EGA
+1,artist:Eikard
+1,artist:Eisregen
+1,artist:Ekitable
+1,"artist:Ekstrom, Tomas"
+1,artist:Elemeno P
+1,"artist:Elfman, Danny"
+1,artist:Eliran Kalisky
+1,artist:Elisa
+1,artist:Elvenking
+1,artist:Emerson Lake & Palmer
+1,artist:Emilio Plaza De Los Reyes
+1,artist:Empalot
+1,artist:Enanitos Verdes
+1,"artist:Enigk, Jeremy"
+1,artist:Enki
+1,artist:Enslavement Of Beauty
+1,artist:Enthroned
+1,artist:Entombed
+1,artist:Enya
+1,artist:Epileptic Hero
+1,artist:Epoch Of Unlight
+1,artist:Erkin Koray
+1,artist:Erosia
+1,"artist:Erquiaga, Steve"
+1,artist:Eru s Tension Experiment
+1,artist:Erwan
+1,artist:Estigia
+1,wait:140
+1,"artist:Etheridge, Melissa"
+1,artist:Etienne Daho et Dani
+1,wait:130
+1,artist:Eurythmics
+1,artist:Eve 6
+1,artist:Evergrey
+1,artist:Everly Brothers (The)
+1,"artist:Exercises and Scales, Nudeedude"
+1,artist:Exhausted
+1,artist:Exhumed
+1,artist:Extrabreit
+1,"artist:Fabian, Lara"
+1,"artist:Fabulosos Cadillacs, Los"
+1,artist:Faction (The)
+1,artist:Failure
+1,"artist:Faithfull, Marianne"
+1,artist:Fake
+1,artist:Fantomas
+1,artist:Far
+1,artist:Far From Over
+1,artist:Farben Lehre
+1,artist:Fastway
+1,artist:Fatih Ozpolat
+1,artist:Fear Before The March Of Flames
+1,"artist:Feliciano, Jose"
+1,bfx:tempo_change:310
+1,artist:Felonik
+1,"artist:Feole, Michael"
+1,artist:Ferma
+1,"artist:Ferra, Bebo"
+1,artist:FFF
+1,artist:Fight
+1,artist:Fightstar
+1,artist:Fimbulwinter
+1,artist:Final Dawn
+1,"artist:Finger, Peter"
+1,artist:Firehouse
+1,artist:Firewolf
+1,artist:First A!d
+1,artist:First Circle
+1,artist:Fito & Fitipaldis
+1,artist:Five Iron Frenzy
+1,"artist:Flack, Roberta"
+1,artist:Flames Of Hate
+1,artist:Fleshcrawl
+1,"artist:Fleury, Laurent"
+1,artist:Flock
+1,artist:Flogging Molly
+1,artist:Flotsam and Jetsam
+1,artist:flower
+1,artist:Flower
+1,"artist:flowers, the"
+1,"artist:Floyd, Eddie"
+1,artist:Fluisterwoud
+1,artist:Folk
+1,"artist:Fonteyne, Julien"
+1,artist:Fonzie
+1,artist:Fool's Garden
+1,artist:Forbidden
+1,"artist:Ford, Lita"
+1,artist:Forest Gump
+1,artist:Forest Of Fog
+1,artist:Forest Of Shadows
+1,artist:Forgotten Tomb
+1,artist:Format
+1,artist:ForNoise
+1,"artist:Fortea, Daniel"
+1,artist:Forz
+1,"artist:Foster, Asa"
+1,artist:Four Star Mary
+1,artist:Four Tops
+1,"artist:Fox, Alex"
+1,"artist:Fox, Charles"
+1,"artist:Franaois, Claude"
+1,"artist:Franklin, Aretha"
+1,artist:Freak Kitchen
+1,artist:Free Yon
+1,artist:Freedom Call
+1,artist:Frenzal Rhomb
+1,"artist:Fritz Klyka, Liklouf und kenki"
+1,artist:From Autumn To Ashes
+1,artist:From Autumn to Ashes
+1,artist:From First To Last
+1,artist:FrontWIRE
+1,artist:Frost Dragon
+1,"artist:Fucik, Julius"
+1,clean1:note:s2:f18
+1,clean1:note:s1:f20
+1,clean1:note:s1:f17
+1,clean1:note:s3:f22
+1,clean1:note:s3:f21
+1,clean1:note:s3:f19
+1,clean1:note:s4:f22
+1,artist:Funeral For A Friend
+1,artist:Further Exhumation
+1,artist:Further Seems Forever
+1,artist:Future Lost
+1,artist:Fuzzigish
+1,"artist:F_rger_kal_bak, R_ka"
+1,"artist:Gabriel, Peter"
+1,"artist:Gahan, Dave"
+1,artist:Game Diablo
+1,"artist:Gang, James"
+1,"artist:Gangi, Mario"
+1,"artist:Garcia Lorca, Federico"
+1,artist:Garner E
+1,"artist:Garner, E"
+1,artist:Garotos Podres
+1,artist:Gartnerlosjen
+1,artist:Gatibu
+1,artist:Gazette
+1,distorted1:note:s4:f22
+1,distorted1:note:s3:f21
+1,distorted1:note:s3:f22
+1,artist:Genoside (The)
+1,"artist:Gentils, Michel"
+1,artist:George Strait
+1,artist:Georgia Satellites
+1,"artist:Gershwin, George"
+1,artist:Get Up Kids
+1,"artist:Getz, Stan"
+1,artist:Ghinzu
+1,artist:Ghosts of Darkness
+1,artist:Ghoulounatics
+1,"artist:Giardino, Walter"
+1,tempo:330
+1,artist:Girls In Hawaii
+1,"artist:Gismonti, Egberto"
+1,artist:Glass (The)
+1,artist:Glassjaw
+1,artist:Glay-Happiness
+1,artist:Glory Opera
+1,artist:God Dethroned
+1,artist:Goddess Of Sin
+1,artist:Goldeneye 64
+1,artist:Gomer
+1,"artist:Gons_lez, Jos_- Crosses"
+1,"artist:Good, Matthew"
+1,"artist:Gordon, Flash"
+1,artist:Gorguts
+1,artist:Gorki
+1,"artist:Goslow, Melly"
+1,artist:Gottes Armee Der Tiere
+1,artist:Gourds (The)
+1,artist:Gracefall
+1,artist:Gragdanskaya Oborona
+1,"artist:Grapow, Roland"
+1,artist:Grave Axe
+1,artist:Grazdanskaya Oborona
+1,bfx:tempo_change:800
+1,bfx:tempo_change:350
+1,artist:Green Jelly
+1,"artist:Green, Tom"
+1,artist:Grieg
+1,artist:Grip Inc.
+1,artist:Group X
+1,"artist:Guardian Angel, (unnamed)"
+1,artist:Guardian Of the Blind
+1,artist:Guardians Of Monstrosity
+1,artist:Guerilla Poubelle
+1,artist:Guess Who (The)
+1,artist:Guided By Voices
+1,artist:Gula
+1,artist:GunnPrice
+1,artist:Gwar
+1,artist:Haggard
+1,artist:Hajime No Ippo
+1,artist:Hakofim
+1,artist:Half Price
+1,"artist:Hallyday, David"
+1,artist:Halor
+1,artist:Haluk Levent
+1,"artist:Hamasaki, Ayumi"
+1,"artist:Hancock, Herbie"
+1,artist:Hanson
+1,"artist:Hardy, Francoise"
+1,artist:Harmonium
+1,"artist:Harris, Bill"
+1,artist:Haste
+1,artist:Hatred
+1,"artist:Hawkins, Dale"
+1,artist:Hawkwind
+1,"artist:Haydn, Joseph"
+1,artist:Headcheese
+1,"artist:Healey, Jeff"
+1,"artist:Heaney, Patrick"
+1,"artist:Heaven, Sad"
+1,artist:Hefner
+1,artist:Hel
+1,artist:Hell Sk8ter
+1,artist:Hellbound
+1,"artist:Hellforge, Miasto Bluesa"
+1,artist:Hellfueled
+1,artist:Hellion Hector
+1,artist:Hellmoon
+1,tempo:320
+1,artist:Hellsing
+1,"artist:Hellstr_m, H_kan"
+1,artist:Hemaroids
+1,"artist:Hendrix, Jimi"
+1,artist:Metal Argento
+1,wait:121
+1,artist:TBC
+1,artist:Warcraft 2
+1,artist:_kos

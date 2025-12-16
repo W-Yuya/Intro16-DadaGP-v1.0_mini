@@ -10,6 +10,8 @@
                         --primary-color: #3498db; /* アカデミックな青 */
                         --background-color: #f4f7f9; /* 淡い背景 */
                         --card-background: #ffffff; /* カードの背景 */
+                        --h1-text-color: #2c3e50;
+                        --contlorable-item-color: #3498db; /* 操作可能なアイテムの色 */
                         --border-color: #e0e0e0;
                         --notebook-breakpoint: 1200px; /* 3分割 -> 2分割 */
                         --tablet-breakpoint: 900px;    /* 2分割 -> 1分割 */
@@ -27,38 +29,22 @@
                     }
 
                     /* タイトル・見出し */
-                    h1 { color: #2c3e50; font-size: 1.8em; border-bottom: 2px solid var(--primary-color); padding-bottom: 5px; }
+                    h1 { color: var(--h1-text-color); font-size: 1.8em; border-bottom: 2px solid var(--primary-color); padding-bottom: 5px; }
                     h2 { color: #34495e; font-size: 1.4em; }
                     h3 { color: var(--primary-color); font-size: 1.2em; margin-top: 20px; margin-bottom: 10px;}
 
-                    /* ナビゲーション */
-                    nav { margin-bottom: 20px; padding: 10px 0; border-bottom: 1px solid var(--border-color); }
-                    nav a {
-                        text-decoration: none;
-                        color: var(--primary-color);
-                        padding: 5px 10px;
-                        border: none; /*1px solid var(--primary-color); */
-                        border-radius: 5px;
-                        transition: background-color 0.3s, color 0.3s;
-                        font-weight: 600;
-                    }
-                    nav a:hover {
-                        background-color: var(--primary-color);
-                        color: white;
-                    }
-
                     /* リスト/カード (Files & Stats) */
                     ul {
-                        background: var(--card-background);
-                        padding: 15px;
+                        /* background: var(--card-background); */
+                        /* padding: 15px;*/
                         border-radius: 8px;
-                        box-shadow: 0 4px 12px rgba(0,0,0,0.05);
+                        /* box-shadow: 0 4px 12px rgba(0,0,0,0.05); */
                         list-style-type: none;
                         padding-left: 15px;
                     }
                     ul li {
                         padding: 5px 0;
-                        border-bottom: 1px dotted #eee;
+                        border-bottom: 1px dotted var(--border-color);
                     }
                     ul li:last-child {
                         border-bottom: none;
@@ -67,19 +53,19 @@
                     /* ------------------- Statsリスト (dl/dt/dd) のスタイル ------------------- */
                     .stats-list {
                         /* ul のスタイルを流用し、dl自体をカードデザインにする */
-                        background: var(--card-background);
-                        padding: 15px;
+                        /* background: var(--card-background); */
+                        /* padding: 15px; */
                         border-radius: 8px;
-                        box-shadow: 0 4px 12px rgba(0,0,0,0.05);
+                        /* box-shadow: 0 4px 12px rgba(0,0,0,0.05); */
                         list-style-type: none; /* dlなので意味はないが一応 */
                         padding-left: 15px;
                     }
 
                     .stat-item {
-                        display: 
+                        display: flex;
                         justify-content: space-between; /* 項目名と値を左右に寄せる */
                         padding: 5px 0;
-                        border-bottom: 1px dotted #eee;
+                        border-bottom: 1px dotted var(--border-color);
                     }
                     .stats-list .stat-item:last-child {
                         border-bottom: none;
@@ -91,6 +77,7 @@
                         color: #555; /* 項目名を少し暗い色に */
                         flex-shrink: 0; /* dtは縮まない */
                         padding-right: 15px; /* 値との間にスペース */
+                        flex-wrap: wrap;
                     }
 
                     .stat-item dd {
@@ -102,13 +89,6 @@
                     }
 
                     /* PDF/オーディオボックス */
-                    .pdf-box {
-                        background: var(--card-background);
-                        padding: 15px;
-                        border-radius: 8px;
-                        box-shadow: 0 4px 12px rgba(0,0,0,0.05);
-                        margin-bottom: 20px;
-                    }
                     .pdf-box embed {
                         width: 100%;
                         height: 600px;
@@ -122,6 +102,8 @@
                         border-radius: 5px;
                     }
                     .pdf-label {
+                        /*中央に配置*/
+                        text-align: center;
                         font-weight: 600;
                         margin-bottom: 10px;
                         color: #555;
@@ -129,16 +111,16 @@
 
                     /* 画像コンテナ */
                     .image-container {
-                        background: var(--card-background);
-                        padding: 15px;
-                        border-radius: 8px;
-                        box-shadow: 0 4px 12px rgba(0,0,0,0.05);
-                        margin-bottom: 20px;
+                        // background: var(--card-background);
+                        // padding: 15px;
+                        // border-radius: 8px;
+                        // box-shadow: 0 4px 12px rgba(0,0,0,0.05);
+                        // margin-bottom: 20px;
                         overflow: hidden; 
                     }
                     .image-container img {
                         width: 100%;
-                        height: auto;
+                        height: auto; /*pdfの1/2*/
                         display: block;
                         border: 1px solid var(--border-color);
                         border-radius: 5px;
@@ -153,9 +135,8 @@
                     .tabvae-scroll-wrapper img {
                         width: 200%; /* コンテナの2倍の幅で描画 */
                         max-width: none;
-                        height: auto;
+                        //height: auto;
                     }
-
 
                     /* ========================================================== */
                     /* 2. PC/デスクトップ (デフォルト: 3分割) - レイアウトの基準 */
@@ -167,6 +148,8 @@
                         max-width: 1400px;
                         margin-left: auto;
                         margin-right: auto;
+                        border: none;
+                        outline: none;
                     }
                     .info-column {
                         flex: 1; /* 約1/5 */
@@ -240,7 +223,7 @@
                         margin-right: auto;
                     }
                     .stats-column {
-                        flex: 1; /* 左側カラム: 統計情報 */
+                        flex: 2; /* 左側カラム: 統計情報 */
                         min-width: 300px;
                         display: flex;
                         flex-direction: column;
@@ -253,10 +236,11 @@
                     @media (max-width: 1200px) {
                         .index-main-content {
                             flex-direction: column;
+                            max-width: 800px;
                         }
                         .stats-column, .table-column {
                             width: 100%;
-                            min-width: 250px;
+                            min-width: 300px;
                             flex: none;
                         }
                     }
@@ -267,6 +251,7 @@
                         padding: 15px;
                         border-radius: 8px;
                         box-shadow: 0 4px 12px rgba(0,0,0,0.05);
+                        margin-bottom: 20px;
                     }
                     .summary-card h3 {
                         margin-top: 0;
@@ -283,7 +268,7 @@
                         border-bottom: 1px dotted #eee;
                         text-align: center;
                     }
-                    .file-coverage-table td:nth-child(2), .file-coverage-table td:nth-child(3) {
+                    .file-coverage-table td:nth-child(2), .file-coverage-table td:nth-child(3), .file-coverage-table td:nth-child(4){
                         text-align: center; /* Count and %を中央寄せ */
                         font-weight: 600;
                     }
@@ -292,43 +277,70 @@
                         color: #555;
                         background-color: #f9f9f9;
                     }
-                    /* Numerical Stats DL */
-                    .numerical-stats dl{
-                        margin: 0;
+                    
+                    /* ------------------- Numerical Stats DL (dl/dt/dd) のスタイル ------------------- */
+                    .numerical-stats {
+                        display: flex;
+                        border-radius: 8px;
+                        padding-left: 15px;
+                        justify-content: center;
+                    }
+                    .numerical-stats-list {
+                        /* ul のスタイルを流用し、dl自体をカードデザインにする */
+                        /* background: var(--card-background); */
+                        /* padding: 15px; */
+                        /* box-shadow: 0 4px 12px rgba(0,0,0,0.05); */
+                        list-style-type: none; /* dlなので意味はないが一応 */
+                        width: 90%;
+                        min-width: 250px;
+                        max-width: 400px;
                     }
 
-                    .numerical-stats dt {
+                    .numerical-stat-item {
+                        display: flex;
+                        justify-content: space-between; /* 項目名と値を左右に寄せる */
+                        padding: 5px 0;
+                        border-bottom: 1px dotted var(--border-color);
+                    }
+                    .numerical-stats-list .numerical-stat-item:last-child {
+                        border-bottom: none;
+                    }
+
+                    .numerical-stat-item dt {
                         /* 項目名（左側）を太字にして強調 */
                         font-weight: 600;
                         color: #555; /* 項目名を少し暗い色に */
                         flex-shrink: 0; /* dtは縮まない */
                         padding-right: 15px; /* 値との間にスペース */
+                        flex-wrap: wrap;
                     }
 
-                    .numerical-stats dd {
+                    .numerical-stat-item dd {
                         /* 値（右側）は通常フォント、右寄せ */
                         margin-left: 0; /* ddのデフォルトのインデントをリセット */
                         text-align: right;
                         flex-grow: 1; /* ddが残りの幅を全て使う */
                         color: #333;
-                    }                    
+                    }
+
                     /* --- Vocabulary Link Button --- */
                     .vocab-link {
                         display: block; /* ブロック要素にして幅いっぱいにする */
-                        margin-top: 10px;
-                        padding: 10px 15px;
+                        margin-bottom: 20px;
+                        padding: 15px 20px;
                         text-align: center;
                         text-decoration: none;
                         font-weight: 700;
-                        color: white !important; /* 強制的に白文字 */
-                        background-color: #2ecc71; /* 緑系の強調色 */
+                        font-size: 1.2em;
+                        color: var(--primary-color); /* 強制的に白文字 */
+                        //background-color: var(--card-background); /* 緑系の強調色 */
                         border-radius: 8px;
-                        box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+                        //box-shadow: 0 4px 6px rgba(0,0,0,0.1);
                         transition: background-color 0.3s, transform 0.1s;
                     }
                     .vocab-link:hover {
-                        background-color: #27ae60;
-                        transform: translateY(-1px);
+                        background-color: var(--primary-color);
+                        color: white;
                     }
 
                     /* --- Dataset Table Design (行全体リンク対応) --- */
@@ -367,6 +379,12 @@
                         border-radius: 8px;
                         box-shadow: 0 4px 12px rgba(0,0,0,0.05);
                         margin-bottom: 20px;
+                    }
+                    
+                    .card h3 {
+                        margin-top: 0;
+                        padding-bottom: 5px;
+                        border-bottom: 1px solid var(--border-color);
                     }
 
                     /* vocabulary.html */
@@ -430,7 +448,7 @@
                         position: absolute;
                         left: -15px;
                         font-size: 0.8em;
-                        color: #555;
+                        color: var(--contlorable-item-color);
                         transition: transform 0.2s;
                     }
                     .hierarchy-tree details[open] > summary::before {
@@ -602,6 +620,152 @@
                         max-width: 100%;
                     }
                     }
+
+                    /*ベース*/
+                    .toggle {
+                        display: none;
+                    }
+                    .accordion { /* 親セクション */
+                        padding: 0;
+                        margin: 0;
+                    }
+                    .Label {		/*タイトル*/
+                        padding: 5px 30px;
+                        display: block;
+                        font-weight: 700;
+                        font-size: 1.2em;
+                        color: var(--primary-color);
+                        border-bottom: 1px solid var(--border-color);
+                        cursor: pointer;
+                    }
+                    .Label::before{		/*タイトル横の矢印*/
+                        content:"";
+                        width: 6px;
+                        height: 6px;
+                        color: var(--primary-color);
+                        border-top: 2px solid var(--contlorable-item-color);
+                        border-right: 2px solid var(--contlorable-item-color);
+                        -webkit-transform: rotate(-45deg);
+                        position: absolute;
+                        top:calc( 50% - 3px );
+                        left: 10px;
+                        transform: rotate(45deg);
+                    }
+                    .Label,
+                    .content {
+                        -webkit-backface-visibility: hidden;
+                        backface-visibility: hidden;
+                        transform: translateZ(0);
+                        transition: all 0.3s;
+                    }
+                    .content {		/*本文*/
+                        height: 0;
+                        margin-bottom:10px;
+                        padding:0 0px;
+                        overflow: hidden;
+                    }
+                    .toggle:checked + .Label + .content {	/*開閉時*/
+                        height: auto;
+                        padding:5px 0px;
+                        transition: all .3s;
+                    }
+                    .toggle:checked + .Label::before {
+                        transform: rotate(135deg) !important;
+                    }
+
+                    /* ========================================================== */
+                    /* ★★★ Song Page Title / Metadata Style ★★★ */
+                    /* ========================================================== */
+
+                    .song-page-title-container {
+                        margin-bottom: 20px;
+                    }
+
+                    /* 1. インデックス (#idx) - H1の上に配置 */
+                    .title-idx-container {
+                        /* H1のすぐ上、メタ情報より大きく */
+                        font-size: 1.2em; /* H1 (2.5em) より小さく、メタ情報 (0.9em) より大きく */
+                        font-weight: 600;
+                        color: var(--primary-color); /* 目立たせるためにプライマリカラーを使用 */
+                    }
+                    /* # の文字も同じスタイルを適用し、一体感を持たせる */
+                    .title-idx-container span {
+                        color: var(--primary-color); 
+                        font-weight: 600;
+                    }
+
+                    /* 2. H1タイトル */
+                    .song-page-title-container h1 {
+                    //    font-size: 2.5em; 
+                        color: var(--h1-text-color);
+                        margin-top: 0;
+                        margin-bottom: 5px;
+                        padding-top: 0; 
+                    }
+
+                    /* 3. メタ情報コンテナ (一行表示用) */
+                    .metadata-line {
+                        font-size: 0.95em; /* 全体サイズを微調整 */
+                        padding-bottom: 10px;
+                        color: #666; 
+                    }
+
+                    /* 4. title-item (ラベル/型) */
+                    .title-item {
+                        font-weight: 500;
+                        color: #888; 
+                        margin-right: 5px;
+                        display: inline;
+                        /* ★新規: コードスニペット風フォント */
+                        font-family: 'Consolas', 'Courier New', monospace; 
+                    }
+
+                    /* 5. title-content (値) */
+                    .title-content {
+                        font-weight: 600;
+                        color: #444; 
+                        margin-right: 5px; 
+                        display: inline;
+                    }
+
+                    /* 6. 区切り線 (|) の修正 */
+                    /* ラベルと値のペア全体（span）の後ろに縦線を表示 */
+                    /* 今回のHTML構造では、ペア全体をspanで囲む必要があります */
+                    .metadata-line > span.meta-pair:not(:last-child)::after {
+                        content: "|";
+                        color: #ccc; 
+                    }
+
+                    /* ナビゲーション */
+                    nav { 
+                        /* ★修正点: Sticky Headerの実現 */
+                        position: sticky;
+                        top: 0; /* 画面上端に固定 */
+                        z-index: 900; /* 他の要素より手前に表示(VAEを拡大した時よりはうしろ) */
+                        
+                        background-color: var(--background-color); /* スクロール時に背景が透けないように */
+                        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05); /* 浮いている感を出すために影を追加 */
+                        
+                        margin-bottom: 10px; 
+                        padding: 5px 0; 
+                        border-bottom: 1px solid var(--border-color); 
+                        text-align: center; /* 中央揃えにする */
+                    }
+                    nav a {
+                        text-decoration: none;
+                        color: var(--primary-color);
+                        padding: 5px 10px;
+                        border: none; 
+                        border-radius: 5px;
+                        transition: background-color 0.3s, color 0.3s;
+                        font-weight: 600;
+                        font-size: 1.2em
+                    }
+                    nav a:hover {
+                        background-color: var(--primary-color);
+                        color: white;
+                    }
+
             </style>
         </head>
         <body>
@@ -613,74 +777,105 @@
                 </div>
             </div>
             <nav>
+            <a href='00005.html'><< #5</a> |
             <a href="../index.html">Index</a> |
-            <a href='00005.html'>Prev</a> |
-            <a href='00007.html'>Next</a>
-            </nav> 
+            <a href='00007.html'>#7 >></a>
+            </nav>            
+            <div class="song-page-title-container">
+                
+                <div class="title-idx-container">
+                    <span>#</span>6
+                </div>
+                
+                <h1>1974 AD, Pahilo Junema - Jungi Nishan_clean0</h1>
+                
+                <div class="metadata-line">
+                    
+                    <span class="meta-pair">
+                        <span class="title-item">artist:</span>
+                        <span class="title-content">1974 AD, Pahilo Junema</span>
+                    </span>
+                    
+                    <span class="meta-pair">
+                        <span class="title-item">title:</span>
+                        <span class="title-content">Jungi Nishan</span>
+                    </span>
+                    
+                    <span class="meta-pair">
+                        <span class="title-item">instrument:</span>
+                        <span class="title-content">clean0</span>
+                    </span>
+                    
+                    </div>
+                
+            </div>
             
-            <h1>1974 AD, Pahilo Junema - Jungi Nishan</h1>
-            <h2>Instrument: clean0</h2>
-
             <div class="main-content">
 
                 <div class="info-column">
                     
-                    <h3>Files</h3>
-                    <ul>
-                        <li><a href="../../txt_format/1974 AD, Pahilo Junema - Jungi Nishan_clean0.txt" target="_blank">dadagp txt</a></li>
-                        <li><a href="../../GP_format/1974 AD, Pahilo Junema - Jungi Nishan_clean0.gp5" target="_blank">gp5</a></li>
-                        <li><a href="../../tabVAE_format/1974 AD, Pahilo Junema - Jungi Nishan_clean0.csv" target="_blank">tabVAE csv</a></li>
-                        <li><a href="../../scaleVAE_format/1974 AD, Pahilo Junema - Jungi Nishan_clean0.csv" target="_blank">scaleVAE csv</a></li>
-                        <li><a href="../../WAV_format/1974 AD, Pahilo Junema - Jungi Nishan_clean0.wav" target="_blank">wav</a></li>
-                        <li><a href="../../PDF_format/1974 AD, Pahilo Junema - Jungi Nishan_clean0.pdf" target="_blank">pdf</a></li>
-                        <li><a href="../../scaleVAE_format/xmls/1974 AD, Pahilo Junema - Jungi Nishan_clean0.xml" target="_blank">xml</a></li>
-                    </ul>
-
-                    <h3>Stats</h3>
-                    <dl class="stats-list">
-                        <div class="stat-item">
-                            <dt>Text measure</dt><dd>16</dd>
-                        </div>
-                        <div class="stat-item">
-                            <dt>Text note length [tick]</dt><dd> 61440</dd>
-                        </div>
-                        <div class="stat-item">
-                            <dt>Text total length [tick]</dt><dd> 61440</dd>
-                        </div>
-                        <div class="stat-item">
-                            <dt>Text note density (note/total)</dt><dd> 1.0</dd>
-                        </div>
-                        <div class="stat-item">
-                            <dt>XML measure</dt><dd> 16</dd>
-                        </div>
-                        <div class="stat-item">
-                            <dt>TabVAE rows</dt><dd> 12</dd>
-                        </div>
-                        <div class="stat-item">
-                            <dt>TabVAE cols</dt><dd> 768</dd>
-                        </div>
-                        <div class="stat-item">
-                            <dt>ScaleVAE rows</dt><dd> 74</dd>
-                        </div>
-                        <div class="stat-item">
-                            <dt>ScaleVAE cols</dt><dd> 256</dd>
-                        </div>
-                        <div class="stat-item">
-                            <dt>ScaleVAE min midi number</dt><dd> 40</dd>
-                        </div>
-                        <div class="stat-item">
-                            <dt>ScaleVAE max midi number</dt><dd> 76</dd>
-                        </div>
-                        <div class="stat-item">
-                            <dt>Wav length [sec]</dt><dd> 37.91</dd>
-                        </div>
-                        <div class="stat-item">
-                            <dt>Wav samples</dt><dd> 1671786</dd>
-                        </div>
-                        <div class="stat-item">
-                            <dt>Wav rate [samples/sec]</dt><dd> 44100</dd>
-                        </div>
-                    </dl>
+                    <div class="card">
+                        <section class="accordion">
+                            <input id="files" type="checkbox" class="toggle" checked="checked">
+                            <label class="Label" for="files">Files</label>
+                            <div class="content">
+                                <ul>
+                                    <li><a href="../../txt_format/1974 AD, Pahilo Junema - Jungi Nishan_clean0.txt" target="_blank">dadagp txt</a></li>
+                                    <li><a href="../../GP_format/1974 AD, Pahilo Junema - Jungi Nishan_clean0.gp5" target="_blank">gp5</a></li>
+                                    <li><a href="../../tabVAE_format/1974 AD, Pahilo Junema - Jungi Nishan_clean0.csv" target="_blank">tabVAE csv</a></li>
+                                    <li><a href="../../scaleVAE_format/1974 AD, Pahilo Junema - Jungi Nishan_clean0.csv" target="_blank">scaleVAE csv</a></li>
+                                    <li><a href="../../WAV_format/1974 AD, Pahilo Junema - Jungi Nishan_clean0.wav" target="_blank">wav</a></li>
+                                    <li><a href="../../PDF_format/1974 AD, Pahilo Junema - Jungi Nishan_clean0.pdf" target="_blank">pdf</a></li>
+                                    <li><a href="../../scaleVAE_format/xmls/1974 AD, Pahilo Junema - Jungi Nishan_clean0.xml" target="_blank">xml</a></li>
+                                </ul>
+                            </div>
+                            <input id="stats" type="checkbox" class="toggle" checked="checked">
+                            <label class="Label" for="stats">Stats</label>
+                            <div class="content">
+                                <dl class="stats-list">
+                                    <div class="stat-item">
+                                        <dt>Total lines</dt><dd> 509</dd>
+                                    </div>
+                                    <div class="stat-item">
+                                        <dt>Measure</dt><dd>16</dd>
+                                    </div>
+                                    <div class="stat-item">
+                                        <dt>Note length (ticks)</dt><dd> 61440</dd>
+                                    </div>
+                                    <div class="stat-item">
+                                        <dt>Total length (ticks)</dt><dd> 61440</dd>
+                                    </div>
+                                    <div class="stat-item">
+                                        <dt>Note density (notes/total)</dt><dd> 1.0</dd>
+                                    </div>
+                                    <div class="stat-item">
+                                        <dt>XML measure</dt><dd> 16</dd>
+                                    </div>
+                                    <div class="stat-item">
+                                        <dt>TabVAE shapes</dt><dd> 12 x 512</dd>
+                                    </div>
+                                    <div class="stat-item">
+                                        <dt>ScaleVAE shapes</dt><dd> 142 x 256</dd>
+                                    </div>
+                                    <div class="stat-item">
+                                        <dt>ScaleVAE midi range</dt><dd> 34 - 104</dd>
+                                    </div>
+                                    <div class="stat-item">
+                                        <dt>Appear midi range</dt><dd> 40 - 69</dd>
+                                    </div>
+                                    <div class="stat-item">
+                                        <dt>Wav length (sec)</dt><dd> 37.91</dd>
+                                    </div>
+                                    <div class="stat-item">
+                                        <dt>Wav samples</dt><dd> 1671786</dd>
+                                    </div>
+                                    <div class="stat-item">
+                                        <dt>Wav sample rate (Hz)</dt><dd> 44100</dd>
+                                    </div>
+                                </dl>
+                            </div>
+                        </section>
+                    </div>
                 </div>
 
 
@@ -688,41 +883,48 @@
                     
                     <div class="pdf-audio-column">
                         <div class="pdf-box">
-                            <h3>Score</h3>
-                            <div class="pdf-label">Jungi Nishan</div>
-                            <embed src="..\..\PDF_format\1974 AD, Pahilo Junema - Jungi Nishan_clean0.pdf#toolbar=0&view=Fit" type="application/pdf">
-                            
-                            <h3>Audio</h3>
-                            <audio controls>
-                                <source src="..\..\WAV_format\1974 AD, Pahilo Junema - Jungi Nishan_clean0.wav" type="audio/wav">
-                                Your browser does not support the audio element.
-                            </audio>
+                            <div class="card">
+                                <h3>Score</h3>
+                                <div class="pdf-label">Jungi Nishan</div>
+                                <embed src="..\..\PDF_format\1974 AD, Pahilo Junema - Jungi Nishan_clean0.pdf#toolbar=0&view=Fit" type="application/pdf">
+                            </div>    
+                            <div class="card">
+                                <h3>Audio</h3>
+                                <audio controls>
+                                    <source src="..\..\WAV_format\1974 AD, Pahilo Junema - Jungi Nishan_clean0.wav" type="audio/wav">
+                                    Your browser does not support the audio element.
+                                </audio>
+                            </div>
                         </div>
                     </div>
                     
                     <div class="image-column">
-                        <div class="image-container">
-                            <h3>TabVAE</h3>
-                            <div class="tabvae-scroll-wrapper">
-                                <img class="clickable-image" 
-                                    src="images\00006_tab.png" 
-                                    alt="TabVAE"
-                                    data-src="images\00006_tab.png">
+                        <div class="card">
+                            <div class="image-container">
+                                <h3>TabVAE</h3>
+                                <div class="tabvae-scroll-wrapper">
+                                    <img class="clickable-image" 
+                                        src="images\00006_tab.png" 
+                                        alt="TabVAE"
+                                        data-src="images\00006_tab.png">
+                                </div>
                             </div>
                         </div>
-                        <div class="image-container">
-                            <h3>ScaleVAE</h3>
-                                <img class="clickable-image" 
-                                    src="images\00006_scale.png" 
-                                    alt="ScaleVAE"
-                                    data-src="images\00006_scale.png">
+                        <div class="card">
+                            <div class="image-container">
+                                <h3>ScaleVAE</h3>
+                                <div class="tabvae-scroll-wrapper">
+                                    <img class="clickable-image" 
+                                        src="images\00006_scale.png" 
+                                        alt="ScaleVAE"
+                                        data-src="images\00006_scale.png">
+                                </div>
+                            </div>
                         </div>
                     
                 </div> 
                 
             </div> 
-
-            <hr>
 
             <script>
                 
